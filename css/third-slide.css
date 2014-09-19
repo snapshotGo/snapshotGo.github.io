@@ -17,6 +17,7 @@
 	color: #4e4e4e;
 	width: 690px;
 	margin-right: 65px;
+	margin-bottom: 20px;
 }
 
 #third-fold h1{
@@ -182,12 +183,15 @@
 		left: 1300px
     }
 
-
     #signup-form{
 		left: 702px;
     }
     .three-benefits{
     	margin-left:60px;
+	}
+
+	#snapshot-description{
+		padding-top: 185px;
 	}
 }
 
@@ -230,6 +234,14 @@
 
     #snapshot-description{
     	padding-top: 44px;
+    }
+}
+
+@media (max-width:890px) {
+
+    #floating-price-hexagon{
+        left: 90px;
+        bottom: 400px;
     }
 }
 
