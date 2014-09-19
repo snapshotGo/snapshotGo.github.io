@@ -192,23 +192,23 @@
 
 
 
-/*
-@media (max-width: 1000px) {
+
+@media (max-width: 1480px) {
     #third-fold{
         padding-bottom: 386px;
     }
     
     #floating-price-hexagon{
-        left: 597px;
+        left: 897px;
     }
 
 
     #signup-form{
-        left: 2px;
+        left: 300px;
     }
 }
 
-
+/*
 
 @media (min-width:1000px) and  (max-width: 1400px) {
     #third-fold{
