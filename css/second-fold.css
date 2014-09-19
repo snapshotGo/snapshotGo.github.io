@@ -1,6 +1,7 @@
 #infographic {
     height: 785px;
     background: url(../img/infographic.png) center center no-repeat;    
+    margin: 0 60px;
 }
 #second-fold h1 {
     background-color: #353535;
@@ -17,5 +18,9 @@
 
 #second-fold{
     /*background: url(../img/pattern-hexagon-light.png);*/
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 

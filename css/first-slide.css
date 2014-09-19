@@ -1,15 +1,18 @@
 #manager-with-desc{
     display: flex;
+    flex-grow: 2;
 }
 
 #snapshot-description {
     padding-top: 118px;
-    width: 750px;
+    width: 800px;
     /*max-width: 602px; - small screen fallback*/
     height: 464px;
     margin-left: 40px;
     box-sizing: border-box;
     display: inline-block;
+    padding-right: 50px;
+
 }
 #snapshot-description h1 {
     font-size: 48px;
@@ -62,13 +65,18 @@
 .troubled-manager {
     background-image: url(../img/troubled_manager.png);
     width: 707px;
-    height: 465px;
+    /*height: 465px;*/
     display: inline-block;
     background-position: right 0;
+    background-size: cover;
 }
 
 
 #first-fold{
     overflow: hidden;
     padding-bottom: 10px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
