@@ -1,0 +1,15 @@
+#second-fold {
+    height: 785px;
+    background: url(../img/infographic.png) center center no-repeat;    
+}
+#second-fold h1 {
+    background-color: #353535;
+    height: 57px;
+    color: #e0e0e0;
+    width: 100%;
+    text-align: center;
+    line-height: 57px;
+    font-size: 33px;
+    font-family: "nimbus_sans_nov_d_otbold";
+    text-transform: uppercase;
+}
