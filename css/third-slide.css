@@ -202,6 +202,9 @@
         left: 897px;
     }
 
+	#infographic{
+		background-size: contain;
+	}
 
     #signup-form{
         left: 300px;

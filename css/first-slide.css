@@ -27,6 +27,7 @@
 #snapshot-benefits {
     background: #353535;
     color: white;
+    position: relative;
     clear: both;
 }
 #snapshot-benefits p {
@@ -64,4 +65,9 @@
     height: 465px;
     display: inline-block;
     background-position: right 0;
+}
+
+
+#first-fold{
+    overflow: hidden;
 }

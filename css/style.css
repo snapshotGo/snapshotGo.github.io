@@ -74,8 +74,8 @@ section{
     height: 156px;
     width: 100%;
     background-image: url(../img/pattern.png);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /*margin-top: 10px;*/
+    position: relative;
 }
 
 .parallax-divider.pink{

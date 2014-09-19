@@ -1,4 +1,4 @@
-#second-fold {
+#infographic {
     height: 785px;
     background: url(../img/infographic.png) center center no-repeat;    
 }
@@ -13,3 +13,9 @@
     font-family: "nimbus_sans_nov_d_otbold";
     text-transform: uppercase;
 }
+
+
+#second-fold{
+    /*background: url(../img/pattern-hexagon-light.png);*/
+}
+
