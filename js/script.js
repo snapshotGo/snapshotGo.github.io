@@ -9,7 +9,7 @@ $(function (){
       var _scroll_top = $(window).scrollTop();
       var _margin_top = _scroll_top/2;
 
-      $('#first-fold').css('height', 807 -_margin_top);
+      $('#first-fold').css('height', 797 -_margin_top);
       
 
 
