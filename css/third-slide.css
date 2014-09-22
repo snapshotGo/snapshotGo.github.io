@@ -214,6 +214,10 @@
     #signup-form{
         left: 300px;
     }
+
+	#snapshot-description{
+		padding-top: 75px;
+	}
 }
 
 
@@ -247,4 +251,4 @@
 
 /* ../img/bubbles-nav.png */
 
-
+/*TODO zmienic obrazek manager'a, parallaxy, navbar, podpiąć pdf'y*/

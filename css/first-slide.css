@@ -64,8 +64,9 @@
 }
 .troubled-manager {
     background-image: url(../img/troubled_manager.png);
-    width: 707px;
-    /*height: 465px;*/
+    max-width: 845px;
+    width: 650px;
+    flex-grow: 2;
     display: inline-block;
     background-position: right 0;
     background-size: cover;
