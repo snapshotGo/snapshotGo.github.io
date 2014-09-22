@@ -1,9 +1,9 @@
 #infographic {
     flex-grow: 2;
     background: url(../img/infographic.png) center center no-repeat;    
-    margin: 0 60px;
+    margin: 0 60px 20px;
 }
-#second-fold h1 {
+#how-it-works h1 {
     background-color: #353535;
     height: 57px;
     color: #e0e0e0;
@@ -16,11 +16,13 @@
 }
 
 
-#second-fold{
-    /*background: url(../img/pattern-hexagon-light.png);*/
+#how-it-works{
+    /*background: url(../img/fold-patterns.png);*/
     overflow: hidden;
     display: flex;
     flex-direction: column;
     height: 100%;
+    background-size: contain;
+    z-index: 5;
 }
 

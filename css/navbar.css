@@ -45,11 +45,11 @@
      background: url(http://snapshot.travel/img/bg_nav_consultancy.png) no-repeat right 0;
    }
 
-    .btn-bright a{
+    .btn-sign-up a{
        background: url(../img/bg_nav_bright.png) no-repeat right 0;
     }
 
-    .btn-cogs a{
+    .btn-how-it-works a{
        background: url(../img/bg_nav_cogs.png) no-repeat right 0;
     }
 
@@ -57,7 +57,7 @@
      background: url(http://snapshot.travel/img/bg_nav_technology.png) no-repeat right 0;
    }
    
-   .btn-about a {
+   .btn-informations a {
      background: url(http://snapshot.travel/img/bg_nav_about.png) no-repeat right 0;
    }
    
@@ -158,7 +158,7 @@
    header.main .imprint {
      position: fixed;
      right: 165px;
-     top: 395px;
+     top: 495px;
      background: url(http://snapshot.travel/img/bg_header_contact.png) no-repeat 0 0;
      z-index: 99;
      width: 0;
@@ -176,7 +176,7 @@
    
    header.main .imprint {
      background: url(http://snapshot.travel/img/bg_header_imprint.png) no-repeat 0 0;
-     top: 379px;
+     top: 506px;
    }
    
    header.main address strong {
@@ -228,3 +228,14 @@
    body.open-imprint header.main .imprint {
      height: 200px;
    }
+
+
+  header.main address .col-1 {
+    padding-left: 28px;
+    width: 172px;
+  }
+  header.main address .col {
+    float: left;
+    width: 200px;
+    padding-top: 15px;
+  }

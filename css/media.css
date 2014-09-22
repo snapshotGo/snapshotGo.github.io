@@ -1,0 +1,76 @@
+
+
+@media (min-width: 1680px) {
+    #sign-up{
+		padding-bottom: 284px;
+    }
+    
+    #floating-price-hexagon{
+		left: 1300px
+    }
+
+    #signup-form{
+		left: 702px;
+    }
+    .three-benefits{
+    	margin-left:60px;
+	}
+
+	#snapshot-description{
+		padding-top: 185px;
+	}
+}
+
+
+
+
+@media (max-width: 1400px) {
+    #sign-up{
+        padding-bottom: 386px;
+    }
+    
+    #floating-price-hexagon{
+        left: 897px;
+    }
+
+	#infographic{
+		background-size: contain;
+	}
+
+    #signup-form{
+        left: 300px;
+    }
+
+	#snapshot-description{
+		padding-top: 75px;
+	}
+}
+
+
+
+@media (max-width:1100px) {
+    #sign-up{
+        padding-bottom: 386px;
+    }
+    
+    #floating-price-hexagon{
+        left: 597px;
+    }
+
+
+    #signup-form{
+        left: 20px;
+    }
+
+    #snapshot-description{
+    	padding-top: 44px;
+    }
+}
+
+@media (max-width:890px) {
+
+    #floating-price-hexagon{
+        left: 90px;
+        bottom: 400px;
+    }
+}

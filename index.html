@@ -2,26 +2,30 @@
 <head>
 <meta charset="UTF-8">
 <script src="https://code.jquery.com/jquery-2.1.1.min.js" ></script>
+<script src="js/jquery.address-1.5.min.js" ></script>
+<script src="js/plugins.js" ></script>
+
 <script src="js/script.js" ></script>
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/first-slide.css">
-<link rel="stylesheet" type="text/css" href="css/second-fold.css">
-<link rel="stylesheet" type="text/css" href="css/third-slide.css">
+<link rel="stylesheet" type="text/css" href="css/informations.css">
+<link rel="stylesheet" type="text/css" href="css/how-it-works.css">
+<link rel="stylesheet" type="text/css" href="css/sign-up.css">
 <link rel="stylesheet" type="text/css" href="css/navbar.css">
+<link rel="stylesheet" type="text/css" href="css/media.css">
 </head>
 
-<body>
-  <section id="first-fold">
-  <header>
+<body data-site-name="Snapshot GO! &mdash; Hotel Demand Management" class="main">
+  <section id="first-fold" data-url="/informations/" data-id="informations" data-title="About Snapshot GO!">
+  <header class="main">
     <h1>SnapShot GO!</h1>
     <nav class="main">
       <ul>
-        <li class="btn-home"><a href="/" rel="internal" address="true"><span>Home</span></a></li>
-        <li class="btn-about"><a href="#first-fold" rel="internal" address="true"><span>Informations</span></a></li>
-        <li class="btn-cogs"><a href="#second-fold" rel="internal" address="true"><span>Mechanism</span></a></li>
-        <li class="btn-bright"><a href="#third-fold" rel="internal" address="true"><span>Benefits</span></a></li>
+        <li class="btn-home"><a href="/informations/" rel="internal" address="true"><span>Home</span></a></li>
+        <li class="btn-informations"><a href="/informations/" rel="internal" address="true"><span>Informations</span></a></li>
+        <li class="btn-how-it-works"><a href="/how-it-works/" rel="internal" address="true"><span>Mechanism</span></a></li>
+        <li class="btn-sign-up"><a href="/sign-up/" rel="internal" address="true"><span>Benefits</span></a></li>
         <li class="btn-twitter"><a href="https://twitter.com/snapshot_demand" target="_blank"><span><span>Follow us </span>Twitter</span></a></li>
         <li class="btn-linkedin"><a href="http://www.linkedin.com/company/3083436?trk=tyah" target="_blank"><span><span>Follow us </span>LinkedIn</span></a></li>
         <li class="btn-contact"><a href="#"><span>Contact</span></a></li>
@@ -29,6 +33,37 @@
         <li class="btn-blog"><a href="http://blog.snapshot.travel" target="_blank"><span>Blog</span></a></li>
       </ul>
     </nav>
+    <address class="imprint">
+      <div class="col col-1">
+        <strong>Imprint</strong><br>
+        SnapShot GmbH<br>
+        Michael Heinze<br>
+        Managing Director<br>
+        Schillerstr. 10<br>
+        5700 Zell am See<br>
+        Austria<br>
+        VAT: ATU67741205
+      </div>
+      <div class="col">
+        <strong>Branding &amp; Website by</strong><br>
+        <a href="http://www.lambsandlions.com/" target="_blank">Lambs &amp; Lions</a><br>
+        <a href="http://www.turncodeintobeauty.com/" target="_blank">Turn code into beauty</a>
+      </div>
+    </address>
+    <address class="contact">
+              <div class="col col-1">
+                <strong>Information</strong><br>
+                +31 611 308 891<br>
+                <a href="mailto:learnmore@snapshot.travel">learnmore@snapshot.travel</a><br>
+                <a href="#" target="_blank">@snapshot_learnmore</a>
+              </div>
+              <div class="col">
+                <strong>Support</strong><br>
+                +49 30 220 117 240<br>
+                <a href="mailto:support@snapshot.travel">support@snapshot.travel</a><br>
+                <a href="#" target="_blank">@snapshot_support</a>
+              </div>
+            </address>
   </header>
     <div id='manager-with-desc'>
       <div class="troubled-manager"></div>
@@ -53,22 +88,22 @@
           <p>Align commercial objectives Streamline communication Central access</p>
         </li>
       </ul>
-    <a href="#second-fold" class="btn-down dark"></a>
+    <a href="#how-it-works" class="btn-down dark"></a>
     </div>
-    <div class="nav-bubbles first"></a>
+    <div class="nav-bubbles first"></div>
   </section>
   <div class="parallax-divider black"></div>
-  <section id="second-fold">
+  <section id="how-it-works" data-url="/how-it-works/" data-id='how-it-works'>
     <h1>Here is how it Works...</h1>
     <div id="infographic"></div>
-    <a href="#third-fold" class="btn-down light"></a>
+    <a href="#sign-up" class="btn-down light"></a>
     <div class="nav-bubbles second"></a>
   </section>
   <div class="parallax-divider pink">
     <h1>SNAPSHOT GO!</h1>
     <p>HOTEL DEMAND MANAGEMENT IN THE CLOUD</p>
   </div>
-  <section id="third-fold">
+  <section id="sign-up" data-url="/sign-up/" data-id="sign-up"> 
     <div  class="inner">
       <div class="three-benefits"></div>
 

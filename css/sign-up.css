@@ -9,7 +9,7 @@
 	background-repeat: no-repeat;
 }
 
-#third-fold .decription{
+#sign-up .decription{
 	display: inline-block;
 	font-family: 'nimbus_sans_novus_d_otBdCn';
 	margin-left: 110px;
@@ -20,30 +20,30 @@
 	margin-bottom: 20px;
 }
 
-#third-fold h1{
+#sign-up h1{
 	font-size: 30px;
 	margin-bottom: 35px;
 }
 
-#third-fold ul{
+#sign-up ul{
 	font-size: 26px;
 	margin-bottom: 40px;
 }
 
-#third-fold ul:before{	
+#sign-up ul:before{	
     content:attr(aria-label);
 }
 
-#third-fold li{
+#sign-up li{
 	display: block;
 	padding-left: 40px;
 	background: url(../img/snapshot-benefits-desc-tick.png) 0px 4px no-repeat
 }
-	#third-fold li:first-child {
+	#sign-up li:first-child {
 		margin-top: 12px;
 	}
 
-#third-fold em{
+#sign-up em{
 	font-size: 30px;
 	font-family: "Times New Roman";
 	font-style: italic;
@@ -51,19 +51,19 @@
 	display: inline-block;
 }
 
-#third-fold p{
+#sign-up p{
 	margin-top: 32px;
 	font-size: 30px;
 	margin-left: 10px;
 }
 
-#third-fold a{
+#sign-up a{
 	margin-top: 32px;
 	font-size: 30px;
 	color:#d02760;
 }
 
-#third-fold{
+#sign-up{
 	display: flex;
 	background: linear-gradient(to right, rgba(254,254,254,0.1) 0%,rgba(0,0,0,0.25) 100%);
 	padding-bottom: 304px;
@@ -172,82 +172,6 @@
 	font-family: 'nimbus_sans_novus_d_otmedium';
 }
 
-
-
-@media (min-width: 1680px) {
-    #third-fold{
-		padding-bottom: 284px;
-    }
-    
-    #floating-price-hexagon{
-		left: 1300px
-    }
-
-    #signup-form{
-		left: 702px;
-    }
-    .three-benefits{
-    	margin-left:60px;
-	}
-
-	#snapshot-description{
-		padding-top: 185px;
-	}
-}
-
-
-
-
-@media (max-width: 1480px) {
-    #third-fold{
-        padding-bottom: 386px;
-    }
-    
-    #floating-price-hexagon{
-        left: 897px;
-    }
-
-	#infographic{
-		background-size: contain;
-	}
-
-    #signup-form{
-        left: 300px;
-    }
-
-	#snapshot-description{
-		padding-top: 75px;
-	}
-}
-
-
-
-@media (max-width:1100px) {
-    #third-fold{
-        padding-bottom: 386px;
-    }
-    
-    #floating-price-hexagon{
-        left: 597px;
-    }
-
-
-    #signup-form{
-        left: 20px;
-    }
-
-    #snapshot-description{
-    	padding-top: 44px;
-    }
-}
-
-@media (max-width:890px) {
-
-    #floating-price-hexagon{
-        left: 90px;
-        bottom: 400px;
-    }
-}
 
 /* ../img/bubbles-nav.png */
 

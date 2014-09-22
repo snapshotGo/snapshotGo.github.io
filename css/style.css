@@ -52,7 +52,7 @@ header {
     width: 35px;
     overflow: hidden;
     background: url(../img/icons-snapshot-go.png) no-repeat -32px -59px;
-    z-index: 99;
+    z-index: 3;
 }
 .btn-down.dark{
     height: 32px;
@@ -75,6 +75,7 @@ section{
     background-image: url(../img/pattern.png);
     /*margin-top: 10px;*/
     position: relative;
+    z-index: 5;
 }
 
 .parallax-divider.pink{
@@ -83,7 +84,8 @@ section{
     background-image: url(../img/pattern-pink.png);
     text-align: center;
     color: white;
-    font-family: "nimbus_sans_novus_d_otSBd"
+    font-family: "nimbus_sans_novus_d_otSBd",
+    z-index: 5;
 }
 .parallax-divider.pink h1{
     font-size: 36px;
