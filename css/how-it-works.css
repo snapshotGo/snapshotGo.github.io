@@ -17,7 +17,7 @@
 
 
 #how-it-works{
-    /*background: url(../img/fold-patterns.png);*/
+    background: url(../img/fold-patterns.png);
     overflow: hidden;
     display: flex;
     flex-direction: column;

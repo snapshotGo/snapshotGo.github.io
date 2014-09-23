@@ -4,7 +4,12 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js" ></script>
 <script src="js/jquery.address-1.5.min.js" ></script>
 <script src="js/plugins.js" ></script>
+<script src="js/parallax.js" ></script><!-- 
+<script src="js/skrollr.min.js" ></script>
+<script src="js/skrollr.menu.min.js" ></script> -->
 
+
+<!-- <script type="text/javascript" src="http://fast.fonts.net/jsapi/749338cf-ba14-4701-ad99-46659c27d0a7.js"></script> -->
 <script src="js/script.js" ></script>
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
@@ -17,9 +22,8 @@
 </head>
 
 <body data-site-name="Snapshot GO! &mdash; Hotel Demand Management" class="main">
-  <section id="first-fold" data-url="/" data-id="informations" data-title="About">
-  <header class="main">
-    <h1>SnapShot GO!</h1>
+<!-- <div class="parallax-div"> -->
+  <section data-url="/" data-id="informations" data-title="About">
     <nav class="main">
       <ul>
         <li class="btn-home"><a href="/" rel="internal" address="true"><span>Home</span></a></li>
@@ -33,70 +37,78 @@
         <li class="btn-blog"><a href="http://blog.snapshot.travel" target="_blank"><span>Blog</span></a></li>
       </ul>
     </nav>
-    <address class="imprint">
-      <div class="col col-1">
-        <strong>Imprint</strong><br>
-        SnapShot GmbH<br>
-        Michael Heinze<br>
-        Managing Director<br>
-        Schillerstr. 10<br>
-        5700 Zell am See<br>
-        Austria<br>
-        VAT: ATU67741205
+  <div  id="first-fold" class="">
+    <header class="main">
+      <h1>SnapShot GO!</h1>
+      
+      <address class="imprint">
+        <div class="col col-1">
+          <strong>Imprint</strong><br>
+          SnapShot GmbH<br>
+          Michael Heinze<br>
+          Managing Director<br>
+          Schillerstr. 10<br>
+          5700 Zell am See<br>
+          Austria<br>
+          VAT: ATU67741205
+        </div>
+        <div class="col">
+          <strong>Design &amp; Website by</strong><br>
+          <a href="http://www.lgbs.pl/" target="_blank">LGBS PL</a><br>
+          <a href="https://github.com/klapek/" target="_blank">Wojciech Jaszczak</a><br>
+          <a href="#Ewelina" target="_blank">Ewelina Eliasz</a><br>
+        </div>
+      </address>
+      <address class="contact">
+                <div class="col col-1">
+                  <strong>Information</strong><br>
+                  +31 611 308 891<br>
+                  <a href="mailto:learnmore@snapshot.travel">learnmore@snapshot.travel</a><br>
+                  <a href="#" target="_blank">@snapshot_learnmore</a>
+                </div>
+                <div class="col">
+                  <strong>Support</strong><br>
+                  +49 30 220 117 240<br>
+                  <a href="mailto:support@snapshot.travel">support@snapshot.travel</a><br>
+                  <a href="#" target="_blank">@snapshot_support</a>
+                </div>
+              </address>
+    </header>
+      <div id='manager-with-desc'>
+        <div class="troubled-manager"></div>
+        <div id="snapshot-description">
+          <h1>Are you managing Excel
+            <br/>or your hotel's demand?</h1>
+          <p>SnapShot GO! The hotel industry’s  first cloud-based demand management platform for secure and transparent forecast, strategy and budget management.</p>
+        </div>
       </div>
-      <div class="col">
-        <strong>Branding &amp; Website by</strong><br>
-        <a href="http://www.lambsandlions.com/" target="_blank">Lambs &amp; Lions</a><br>
-        <a href="http://www.turncodeintobeauty.com/" target="_blank">Turn code into beauty</a>
+      <div id="snapshot-benefits">
+        <ul>
+          <li>
+            <h2>Save time</h2>
+            <p>No more Excel sheets Automated data collection Intuitive data preparation</p>
+          </li>
+          <li>
+            <h2>Tame the data</h2>
+            <p>Rolling performance environment Customised views &amp; visualisation Secure &amp; transparent</p>
+          </li>
+          <li>
+            <h2>Increase co-working</h2>
+            <p>Align commercial objectives Streamline communication Central access</p>
+          </li>
+        </ul>
+      <a href='/how-it-works/' class="btn-down dark"  rel="internal"></a>
       </div>
-    </address>
-    <address class="contact">
-              <div class="col col-1">
-                <strong>Information</strong><br>
-                +31 611 308 891<br>
-                <a href="mailto:learnmore@snapshot.travel">learnmore@snapshot.travel</a><br>
-                <a href="#" target="_blank">@snapshot_learnmore</a>
-              </div>
-              <div class="col">
-                <strong>Support</strong><br>
-                +49 30 220 117 240<br>
-                <a href="mailto:support@snapshot.travel">support@snapshot.travel</a><br>
-                <a href="#" target="_blank">@snapshot_support</a>
-              </div>
-            </address>
-  </header>
-    <div id='manager-with-desc'>
-      <div class="troubled-manager"></div>
-      <div id="snapshot-description">
-        <h1>Are you managing Excel
-          <br/>or your hotel's demand?</h1>
-        <p>SnapShot GO! The hotel industry’s  first cloud-based demand management platform for secure and transparent forecast, strategy and budget management.</p>
-      </div>
+      <div class="nav-bubbles first"></div>
+
     </div>
-    <div id="snapshot-benefits">
-      <ul>
-        <li>
-          <h2>Save time</h2>
-          <p>No more Excel sheets Automated data collection Intuitive data preparation</p>
-        </li>
-        <li>
-          <h2>Tame the data</h2>
-          <p>Rolling performance environment Customised views &amp; visualisation Secure &amp; transparent</p>
-        </li>
-        <li>
-          <h2>Increase co-working</h2>
-          <p>Align commercial objectives Streamline communication Central access</p>
-        </li>
-      </ul>
-    <a href="#how-it-works" class="btn-down dark"></a>
-    </div>
-    <div class="nav-bubbles first"></div>
-  </section>
-  <div class="parallax-divider black"></div>
+    </section>
+  <!-- </div> -->
+  <div class="parallax-divider black parralaxed-item"></div>
   <section id="how-it-works" data-url="/how-it-works/" data-id='how-it-works' data-title="How does it work?">
     <h1>Here is how it Works...</h1>
     <div id="infographic"></div>
-    <a href="#sign-up" class="btn-down light"></a>
+    <a href="/sign-up/" rel="internal"  internal class="btn-down light"></a>
     <div class="nav-bubbles second"></a>
   </section>
   <div class="parallax-divider pink">
