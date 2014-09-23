@@ -25,7 +25,7 @@ $(function() {
         }
 
 
-        // if ($.address.history()) {
+        if ($.address.history()) {
             _scroll_animation_running = true;
             _set_active_nav_item(_target_page_id);
 
@@ -43,7 +43,7 @@ $(function() {
                     _scroll_animation_running = false;
                 }
             });
-        // }
+        }
 
     });
 
