@@ -37,20 +37,21 @@ $(window).scroll(function(e) {
     }
 
 
-    // $('.parallax-divider.black').css({
-    //     transform: 'translateY(0px)',
-    //     'z-index': 10,
-    //     position: 'absolute',
-    //     width: '100%',
-    //     // 'margin-bottom': '50px'
-    // });
+    $('.parallax-divider.black').css({
+        transform: 'translateY(0px)',
+        'z-index': 10,
+        position: 'absolute',
+        width: '100%',
+        'margin-bottom': '50px'
+    });
 
-    // if($('#how-it-works').offset().top <= window.screen.availHeight + window.scrollY){
-    //     var initialScroll = $('#how-it-works').offset().top - window.innerHeight;
-    //     var dividerHeight = $('.parallax-divider.pink').outerHeight();
-    //     var toScroll = Math.max(-((window.scrollY-initialScroll)/2),-dividerHeight+50);
-    //     $('.parallax-divider.black').css('margin-top',toScroll);
-    // }
+    if($('#how-it-works').offset().top <= window.screen.availHeight + window.scrollY + 125){
+        var initialScroll = $('#how-it-works').offset().top - window.innerHeight + 125;
+        var dividerHeight = $('.parallax-divider.pink').outerHeight();
+        var toScroll = Math.max(-((window.scrollY-initialScroll)/2),-dividerHeight+50);
+        $('.parallax-divider.black').css('margin-top',toScroll);
+        $('#how-it-works').css('margin-top',49);
+    }
 
 
     // if (_margin_top > 150) {
