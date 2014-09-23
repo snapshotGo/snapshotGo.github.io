@@ -1,16 +1,13 @@
 html{
     background: url(../img/pattern-hexagon-light.png);
+    height: 100%;
 }
 
-body{
-    background: -moz-linear-gradient(left,  rgba(254,254,254,0.11) 0%, rgba(254,254,254,0.28) 38%, rgba(231,216,220,0.55) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(254,254,254,0.11)), color-stop(38%,rgba(254,254,254,0.28)), color-stop(100%,rgba(231,216,220,0.55))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  rgba(254,254,254,0.11) 0%,rgba(254,254,254,0.28) 38%,rgba(231,216,220,0.55) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  rgba(254,254,254,0.11) 0%,rgba(254,254,254,0.28) 38%,rgba(231,216,220,0.55) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  rgba(254,254,254,0.11) 0%,rgba(254,254,254,0.28) 38%,rgba(231,216,220,0.55) 100%); /* IE10+ */
+body{ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
     background: linear-gradient(to right,  rgba(254,254,254,0.11) 0%,rgba(254,254,254,0.28) 38%,rgba(231,216,220,0.55) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1cfefefe', endColorstr='#8ce7d8dc',GradientType=1 ); /* IE6-9 */
     font-family: 'nimbus_sans_novus_d_otmedium';
+    height: 100%;
 }
 
 header {
@@ -22,6 +19,7 @@ header {
 
     header h1{
         text-indent: -9999px;
+        direction: ltr;
     }
 
 .nav-bubbles{
@@ -85,7 +83,7 @@ section{
     background-image: url(../img/pattern-pink.png);
     text-align: center;
     color: white;
-    font-family: "nimbus_sans_novus_d_otSBd",
+    font-family: "nimbus_sans_novus_d_otSBd";
     z-index: 5;
 }
 .parallax-divider.pink h1{
@@ -114,7 +112,7 @@ footer h1:after {
     width: 41px;
     background: #f13f66;
     content: "";
-    margin: 21 auto;
+    margin: 21px auto;
     height: 2px;
     display: block;
 }
@@ -139,7 +137,11 @@ footer h1 .s3{
 }
 
 footer .contact-list{
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
@@ -215,7 +217,8 @@ p span, p a
 .inner{
     max-width: 1600px;
     margin-left: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     margin-right: auto;
 }
-    width: 35px;

@@ -1,8 +1,11 @@
 #infographic {
+    -webkit-flex-grow: 2;
+    -ms-flex-positive: 2;
     flex-grow: 2;
     background: url(../img/infographic.png) center center no-repeat;    
     margin: 0 60px 20px;
 }
+
 #how-it-works h1 {
     background-color: #353535;
     height: 57px;
@@ -19,7 +22,11 @@
 #how-it-works{
     background: url(../img/fold-patterns.png);
     overflow: hidden;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 100%;
     background-size: contain;

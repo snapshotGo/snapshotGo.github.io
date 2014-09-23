@@ -1,5 +1,9 @@
 #manager-with-desc{
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-grow: 2;
+    -ms-flex-positive: 2;
     flex-grow: 2;
 }
 
@@ -41,7 +45,11 @@
 }
 #snapshot-benefits ul {
     /*padding-top: 25px;*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 #snapshot-benefits li {
@@ -67,6 +75,8 @@
     background-image: url(../img/troubled_manager.png);
     max-width: 845px;
     width: 650px;
+    -webkit-flex-grow: 2;
+    -ms-flex-positive: 2;
     flex-grow: 2;
     display: inline-block;
     background-position: right 0;
@@ -79,6 +89,10 @@
     padding-bottom: 10px;
     height: 100%;
     box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
