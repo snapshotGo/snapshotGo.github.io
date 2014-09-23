@@ -10,6 +10,7 @@ body{
     background: -ms-linear-gradient(left,  rgba(254,254,254,0.11) 0%,rgba(254,254,254,0.28) 38%,rgba(231,216,220,0.55) 100%); /* IE10+ */
     background: linear-gradient(to right,  rgba(254,254,254,0.11) 0%,rgba(254,254,254,0.28) 38%,rgba(231,216,220,0.55) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1cfefefe', endColorstr='#8ce7d8dc',GradientType=1 ); /* IE6-9 */
+    font-family: 'nimbus_sans_novus_d_otmedium';
 }
 
 header {
