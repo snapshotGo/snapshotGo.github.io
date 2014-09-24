@@ -35,14 +35,6 @@
      text-decoration: none;
    }
    
-   .btn-education a {
-     background: url(http://snapshot.travel/img/bg_nav_education.png) no-repeat right 0;
-   }
-   
-   .btn-consultancy a {
-     background: url(http://snapshot.travel/img/bg_nav_consultancy.png) no-repeat right 0;
-   }
-
     .btn-sign-up a{
        background: url(../img/bg_nav_bright.png) no-repeat right 0;
     }
@@ -51,32 +43,28 @@
        background: url(../img/bg_nav_cogs.png) no-repeat right 0;
     }
 
-   .btn-technology a {
-     background: url(http://snapshot.travel/img/bg_nav_technology.png) no-repeat right 0;
-   }
-   
    .btn-informations a {
-     background: url(http://snapshot.travel/img/bg_nav_about.png) no-repeat right 0;
+     background: url(../img/bg_nav_informations.png) no-repeat right 0;
    }
    
    .btn-twitter a {
-     background: url(http://snapshot.travel/img/bg_nav_twitter.png) no-repeat right 0;
+     background: url(../img/bg_nav_twitter.png) no-repeat right 0;
    }
    
    .btn-linkedin a {
-     background: url(http://snapshot.travel/img/bg_nav_linkedin.png) no-repeat right 0;
+     background: url(../img/bg_nav_linkedin.png) no-repeat right 0;
    }
    
    .btn-contact a {
-     background: url(http://snapshot.travel/img/bg_nav_contact.png) no-repeat right 0;
+     background: url(../img/bg_nav_contact.png) no-repeat right 0;
    }
    
    .btn-imprint a {
-     background: url(http://snapshot.travel/img/bg_nav_imprint.png) no-repeat right 0;
+     background: url(../img/bg_nav_imprint.png) no-repeat right 0;
    }
    
   .btn-blog a {
-     background: url(http://snapshot.travel/img/bg_nav_blog.png) no-repeat right 0;
+     background: url(../img/bg_nav_blog.png) no-repeat right 0;
    }
    
    nav.main li a > span {
@@ -88,7 +76,7 @@
      height: 29px;
      padding-top: 14px;
      padding-left: 0;
-     background: url(http://snapshot.travel/img/bg_nav_span.png) no-repeat 0 0;
+     background: url(../img/bg_nav_span.png) no-repeat 0 0;
      text-transform: uppercase;
      white-space: nowrap;
      font-size: 10px;
@@ -145,15 +133,16 @@
    nav.main li.btn-linkedin a > span span,
     nav.main li.btn-googleplus a > span span {
      display: block;
-     color: #656565;
+     color: #d93f5e;
    }
    
-   header.main .contact,
-   header.main .imprint {
+   nav.main .contact,
+   nav.main .imprint {
      position: fixed;
      right: 165px;
      top: 495px;
-     background: url(http://snapshot.travel/img/bg_header_contact.png) no-repeat 0 0;
+     background: url(../img/pattern.png) repeat 0 0;
+     border-radius: 3px;
      z-index: 99;
      width: 0;
      height: 0;
@@ -166,12 +155,11 @@
      font-style: normal;
    }
    
-   header.main .imprint {
-     background: url(http://snapshot.travel/img/bg_header_imprint.png) no-repeat 0 0;
+   nav.main .imprint {
      top: 506px;
    }
    
-   header.main address strong {
+   nav.main address strong {
      font-weight: 400;
      font-family: "NimbusSansNovusW01-Bold 885972", sans-serif;
      text-transform: uppercase;
@@ -180,49 +168,49 @@
      margin-bottom: 8px;
    }
    
-   header.main address {
+   nav.main address {
      line-height: 1.4;
    }
    
-   header.main address a {
-     color: #ff4700;
+   nav.main address a {
+     color: #d93f5e;
      text-decoration: none;
      transition: color 100ms;
    }
    
-   header.main address a:hover {
+   nav.main address a:hover {
      color: #fff;
    }
    
-   header.main address .col {
+   nav.main address .col {
      float: left;
      width: 200px;
      padding-top: 15px;
    }
    
-   header.main address .col-1 {
+   nav.main address .col-1 {
      padding-left: 28px;
      width: 172px;
    }
    
-   body.open-contact header.main .contact,
-   body.open-imprint header.main .imprint {
+   body.open-contact nav.main .contact,
+   body.open-imprint nav.main .imprint {
      width: 450px;
      height: 140px;
      opacity: 1;
      transition: opacity 200ms 0, width 0 0, height 0 0;
    }
    
-   body.open-imprint header.main .imprint {
+   body.open-imprint nav.main .imprint {
      height: 200px;
    }
 
 
-  header.main address .col-1 {
+  nav.main address .col-1 {
     padding-left: 28px;
     width: 172px;
   }
-  header.main address .col {
+  nav.main address .col {
     float: left;
     width: 200px;
     padding-top: 15px;

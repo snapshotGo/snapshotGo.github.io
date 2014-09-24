@@ -26,34 +26,38 @@ $(function(){
     });
 
     $('#how-it-works').css('margin-top',49);
-});
-
-$(window).scroll(function(e) {
-
-    var _wheight = $(window).height();
-
-    var _scroll_top = $(window).scrollTop();
-    var _margin_top = _scroll_top / 2;
-
-    //First fold move 2 times slower
-    $('#first-fold').css('margin-top', -_margin_top);
-
-    var pinkTop = $('.parallax-divider.pink').offset().top;
 
 
-    //dividers move faster
-    if($('#sign-up').offset().top <= window.screen.availHeight + window.scrollY){
-        var initialScroll = $('#sign-up').offset().top - window.innerHeight ;
-        var dividerHeight = $('.parallax-divider.pink').outerHeight();
-        var toScroll = Math.max(-((window.scrollY-initialScroll)/2),-dividerHeight);
-        $('.parallax-divider.pink').css('margin-top',toScroll);
+    function moveDivider ($elAfter,$elToMove,reactionOffset,moveOffset) {
+        var elOffsetTop = $elAfter.offset().top;
+        reactionOffset = reactionOffset || 0;
+        moveOffset = moveOffset || 0;
+
+        if(elOffsetTop <= window.innerHeight + window.scrollY + reactionOffset){
+            var initialScroll = elOffsetTop - window.innerHeight + reactionOffset;
+            var dividerHeight = $elToMove.outerHeight();
+            var toScroll = Math.max(-((window.scrollY-initialScroll)/2),-dividerHeight+moveOffset);
+
+            
+            $elToMove.css('margin-top',toScroll);
+        }    
     }
 
 
-    if($('#how-it-works').offset().top <= window.screen.availHeight + window.scrollY + 125){
-        var initialScroll = $('#how-it-works').offset().top - window.innerHeight + 125;
-        var dividerHeight = $('.parallax-divider.pink').outerHeight();
-        var toScroll = Math.max(-((window.scrollY-initialScroll)/2),-dividerHeight+50);
-        $('.parallax-divider.black').css('margin-top',toScroll);
-    }
+    $(window).scroll(function(e) {
+
+        var _wheight = $(window).height();
+
+        var _scroll_top = $(window).scrollTop();
+        var _margin_top = _scroll_top / 2;
+
+        //First fold move 2 times slower
+        $('#first-fold').css('margin-top', -_margin_top);
+
+        var pinkTop = $('.parallax-divider.pink').offset().top;
+
+
+        moveDivider($('#sign-up'),$('.parallax-divider.pink'));
+        moveDivider($('#how-it-works'),$('.parallax-divider.black'),80,50);
+    });
 });

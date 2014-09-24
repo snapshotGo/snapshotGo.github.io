@@ -69,7 +69,7 @@ section{
 }
 
 .parallax-divider.black {
-    height: 156px;
+    height: 100px;
     width: 100%;
     background-image: url(../img/pattern.png);
     /*margin-top: 10px;*/
@@ -85,6 +85,7 @@ section{
     color: white;
     font-family: "nimbus_sans_novus_d_otSBd";
     z-index: 5;
+    margin-top: -12.5px;
 }
 .parallax-divider.pink h1{
     font-size: 36px;

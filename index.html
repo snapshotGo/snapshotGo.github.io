@@ -7,6 +7,7 @@
 <!-- build:js scripts/thirdParty.js -->
 <script src="js/jquery.address-1.5.min.js" ></script>
 <script src="js/plugins.js" ></script>
+<script src="js/i18next-1.7.4.min.js" ></script>
 <!-- endbuild -->
 <!-- build:js scripts/scripts.js -->
 <script src="js/parallax.js" ></script>
@@ -33,20 +34,15 @@
     <nav class="main">
       <ul>
         <li class="btn-home"><a href="/" rel="internal" address="true"><span>Home</span></a></li>
-        <li class="btn-informations"><a href="/" rel="internal" address="true"><span>Informations</span></a></li>
-        <li class="btn-how-it-works"><a href="/how-it-works/" rel="internal" address="true"><span>Mechanism</span></a></li>
-        <li class="btn-sign-up"><a href="/sign-up/" rel="internal" address="true"><span>Benefits</span></a></li>
+        <li class="btn-informations"><a href="/" rel="internal" address="true"><span>Overview</span></a></li>
+        <li class="btn-how-it-works"><a href="/how-it-works/" rel="internal" address="true"><span>How it works</span></a></li>
+        <li class="btn-sign-up"><a href="/sign-up/" rel="internal" address="true"><span>I'm interested!</span></a></li>
         <li class="btn-twitter"><a href="https://twitter.com/snapshot_demand" target="_blank"><span><span>Follow us </span>Twitter</span></a></li>
         <li class="btn-linkedin"><a href="http://www.linkedin.com/company/3083436?trk=tyah" target="_blank"><span><span>Follow us </span>LinkedIn</span></a></li>
         <li class="btn-contact"><a href="#"><span>Contact</span></a></li>
         <li class="btn-imprint"><a href="#"><span>Imprint</span></a></li>
         <li class="btn-blog"><a href="http://blog.snapshot.travel" target="_blank"><span>Blog</span></a></li>
       </ul>
-    </nav>
-  <div  id="first-fold" class="">
-    <header class="main">
-      <h1>SnapShot GO!</h1>
-      
       <address class="imprint">
         <div class="col col-1">
           <strong>Imprint</strong><br>
@@ -60,47 +56,50 @@
         </div>
         <div class="col">
           <strong>Design &amp; Website by</strong><br>
-          <a href="http://www.lgbs.pl/" target="_blank">LGBS PL</a><br>
-          <a href="https://github.com/klapek/" target="_blank">Wojciech Jaszczak</a><br>
           <a href="#Ewelina" target="_blank">Ewelina Eliasz</a><br>
+          <a href="https://github.com/klapek/" target="_blank">Wojciech Jaszczak</a><br>
         </div>
       </address>
       <address class="contact">
-                <div class="col col-1">
-                  <strong>Information</strong><br>
-                  +31 611 308 891<br>
-                  <a href="mailto:learnmore@snapshot.travel">learnmore@snapshot.travel</a><br>
-                  <a href="#" target="_blank">@snapshot_learnmore</a>
-                </div>
-                <div class="col">
-                  <strong>Support</strong><br>
-                  +49 30 220 117 240<br>
-                  <a href="mailto:support@snapshot.travel">support@snapshot.travel</a><br>
-                  <a href="#" target="_blank">@snapshot_support</a>
-                </div>
-              </address>
+        <div class="col col-1">
+          <strong>Information</strong><br>
+          +31 611 308 891<br>
+          <a href="mailto:learnmore@snapshot.travel">learnmore@snapshot.travel</a><br>
+          <a href="#" target="_blank">@snapshot_learnmore</a>
+        </div>
+        <div class="col">
+          <strong>Support</strong><br>
+          +49 30 220 117 240<br>
+          <a href="mailto:support@snapshot.travel">support@snapshot.travel</a><br>
+          <a href="#" target="_blank">@snapshot_support</a>
+        </div>
+      </address>
+    </nav>
+  <div  id="first-fold" class="">
+    <header class="main">
+      <h1>SnapShot GO!</h1>
+    
     </header>
       <div id='manager-with-desc'>
         <div class="troubled-manager"></div>
         <div id="snapshot-description">
-          <h1>Are you managing Excel
-            <br/>or your hotel's demand?</h1>
-          <p>SnapShot GO! The hotel industry’s  first cloud-based demand management platform for secure and transparent forecast, strategy and budget management.</p>
+          <h1 data-i18n="[html]firstFold.snapshotIncentive.h1">Are you managing Excel<br/>or your hotel's demand?</h1>
+          <p data-i18n="firstFold.snapshotIncentive.p">SnapShot GO! The hotel industry’s  first cloud-based demand management platform for secure and transparent forecast, strategy and budget management.</p>
         </div>
       </div>
       <div id="snapshot-benefits">
         <ul>
           <li>
-            <h2>Save time</h2>
-            <p>No more Excel sheets Automated data collection Intuitive data preparation</p>
+            <h2 data-i18n="snapshotBenefits.saveTime.title">Save time</h2>
+            <p data-i18n="snapshotBenefits.saveTime.parapraph">No more Excel sheets Automated data collection Intuitive data preparation</p>
           </li>
           <li>
-            <h2>Tame the data</h2>
-            <p>Rolling performance environment Customised views &amp; visualisation Secure &amp; transparent</p>
+            <h2 data-i18n="snapshotBenefits.tameData.title">Tame the data</h2>
+            <p data-i18n="snapshotBenefits.tameData.parapraph">Rolling performance environment Customised views &amp; visualisation Secure &amp; transparent</p>
           </li>
           <li>
-            <h2>Increase co-working</h2>
-            <p>Align commercial objectives Streamline communication Central access</p>
+            <h2 data-i18n="snapshotBenefits.incCoWork.title">Increase co-working</h2>
+            <p data-i18n="snapshotBenefits.incCoWork.parapraph">Align commercial objectives Streamline communication Central access</p>
           </li>
         </ul>
       <a href='/how-it-works/' class="btn-down dark"  rel="internal"></a>
@@ -112,14 +111,14 @@
 
   <div class="parallax-divider black parralaxed-item"></div>
   <section id="how-it-works" data-url="/how-it-works/" data-id='how-it-works' data-title="How does it work?">
-    <h1>Here is how it Works...</h1>
+    <h1 data-i18n="snapshotInographic.title">Here is how it Works...</h1>
     <div id="infographic"></div>
     <a href="/sign-up/" rel="internal"  internal class="btn-down light"></a>
     <div class="nav-bubbles second"></div>
   </section>
   <div class="parallax-divider pink">
-    <h1>SNAPSHOT GO!</h1>
-    <p>HOTEL DEMAND MANAGEMENT IN THE CLOUD</p>
+    <h1 data-i18n="pinkDivider.title">SNAPSHOT GO!</h1>
+    <p data-i18n="pinkDivider.subTitle">HOTEL DEMAND MANAGEMENT IN THE CLOUD</p>
   </div>
   <section id="sign-up" data-url="/sign-up/" data-id="sign-up" data-title="Benefits and sign-up"> 
     <div  class="inner">

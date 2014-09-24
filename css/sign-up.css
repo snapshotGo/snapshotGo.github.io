@@ -129,7 +129,6 @@
 
 #signup-form input.surname{
 	width: 247px;
-	margin-left: 10px;
 }
 
 #signup-form button{
@@ -140,7 +139,7 @@
 	border: none;
 	position: absolute;
 	bottom: 28px;
-	right: 65px;
+	right: 50px;
 	cursor: pointer;
 }
 

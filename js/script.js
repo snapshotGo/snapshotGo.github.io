@@ -31,7 +31,7 @@ $(function() {
 
 
             var _scroll_to = _target_page;
-            if (_target_page.data('id') == 'home') {
+            if (_target_page.data('id') == 'informations') {
                 _scroll_to = 0;
             }
 
@@ -69,7 +69,7 @@ $(function() {
 
         var _active_page = $('.main > section').inViewport().first();
 
-        if ($('.main > section').inViewport().first().data('id') == 'home' && $(window).scrollTop() > 300) {
+        if ($('.main > section').inViewport().first().data('id') == 'informations' && $(window).scrollTop() > 300) {
             _active_page = $('.main > section').inViewport().eq(1);
         }
 
@@ -121,7 +121,7 @@ $(function() {
         e.preventDefault();
     });
 
-    $('header.main .imprint').hover(function() {
+    $('nav.main .imprint').hover(function() {
         $('body').addClass('open-imprint');
     }, function() {
         $('body').removeClass('open-imprint');
@@ -135,10 +135,17 @@ $(function() {
         e.preventDefault();
     });
 
-    $('header.main .contact').hover(function() {
+    $('nav.main .contact').hover(function() {
         $('body').addClass('open-contact');
     }, function() {
         $('body').removeClass('open-contact');
     });
 
+
+    i18n.init(function(t) {
+      $("[data-i18n]").i18n();
+
+      // programatical access
+      //var appName = t("app.name");
+    });
 });
