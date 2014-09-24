@@ -4,8 +4,7 @@
    nav.main {
      position: fixed;
      right: 10px;
-     margin-top:-200px;
-     top: 50%;
+     top: 136px;
      z-index: 100;
      width: 44px;
      height: 400px;
@@ -140,7 +139,7 @@
    nav.main .imprint {
      position: fixed;
      right: 165px;
-     top: 495px;
+     top: 345px;
      background: url(../img/pattern.png) repeat 0 0;
      border-radius: 3px;
      z-index: 99;
@@ -156,7 +155,7 @@
    }
    
    nav.main .imprint {
-     top: 506px;
+     top: 356px;
    }
    
    nav.main address strong {
