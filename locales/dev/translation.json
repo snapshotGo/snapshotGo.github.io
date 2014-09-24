@@ -1,0 +1,29 @@
+{
+    "firstFold": {
+        "snapshotIncentive": {
+            "h1": "Are you managing Excel<br/>or your hotel's demand?",
+            "p": "SnapShot GO! The hotel industry’s  first cloud-based demand management platform for secure and transparent forecast, strategy and budget management."
+        },
+        "snapshotBenefits": {
+            "saveTime": {
+                "title": "Save time",
+                "paragraph": "No more Excel sheets Automated data collection Intuitive data preparation"
+            },
+            "incCoWork": {
+                "title ": "Tame the data",
+                "paragraph": "Rolling performance environment Customised views &amp; visualisation Secure &amp; transparent"
+            },
+            "tameData": {
+                "title": "Increase co-working",
+                "paragraph": "Align commercial objectives Streamline communication Central access"
+            }
+        },
+        "snapshotInographic" : {
+        	"title" :" HERE IS HOW IT WORKS..."
+        },
+        "pinkDivider": {
+        	"title" : "SNAPSHOT GO!",
+    		"subTitle" : "HOTEL DEMAND MANAGEMENT IN THE CLOUD"
+        }
+    }
+}

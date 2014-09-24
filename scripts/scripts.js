@@ -26,38 +26,41 @@ $(function(){
     });
 
     $('#how-it-works').css('margin-top',49);
-});
-
-$(window).scroll(function(e) {
-
-    var _wheight = $(window).height();
-
-    var _scroll_top = $(window).scrollTop();
-    var _margin_top = _scroll_top / 2;
-
-    //First fold move 2 times slower
-    $('#first-fold').css('margin-top', -_margin_top);
-
-    var pinkTop = $('.parallax-divider.pink').offset().top;
 
 
-    //dividers move faster
-    if($('#sign-up').offset().top <= window.screen.availHeight + window.scrollY){
-        var initialScroll = $('#sign-up').offset().top - window.innerHeight ;
-        var dividerHeight = $('.parallax-divider.pink').outerHeight();
-        var toScroll = Math.max(-((window.scrollY-initialScroll)/2),-dividerHeight);
-        $('.parallax-divider.pink').css('margin-top',toScroll);
+    function moveDivider ($elAfter,$elToMove,reactionOffset,moveOffset) {
+        var elOffsetTop = $elAfter.offset().top;
+        reactionOffset = reactionOffset || 0;
+        moveOffset = moveOffset || 0;
+
+        if(elOffsetTop <= window.innerHeight + window.scrollY + reactionOffset){
+            var initialScroll = elOffsetTop - window.innerHeight + reactionOffset;
+            var dividerHeight = $elToMove.outerHeight();
+            var toScroll = Math.max(-((window.scrollY-initialScroll)/2),-dividerHeight+moveOffset);
+
+            
+            $elToMove.css('margin-top',toScroll);
+        }    
     }
 
 
-    if($('#how-it-works').offset().top <= window.screen.availHeight + window.scrollY + 125){
-        var initialScroll = $('#how-it-works').offset().top - window.innerHeight + 125;
-        var dividerHeight = $('.parallax-divider.pink').outerHeight();
-        var toScroll = Math.max(-((window.scrollY-initialScroll)/2),-dividerHeight+50);
-        $('.parallax-divider.black').css('margin-top',toScroll);
-    }
-});
+    $(window).scroll(function(e) {
 
+        var _wheight = $(window).height();
+
+        var _scroll_top = $(window).scrollTop();
+        var _margin_top = _scroll_top / 2;
+
+        //First fold move 2 times slower
+        $('#first-fold').css('margin-top', -_margin_top);
+
+        var pinkTop = $('.parallax-divider.pink').offset().top;
+
+
+        moveDivider($('#sign-up'),$('.parallax-divider.pink'));
+        moveDivider($('#how-it-works'),$('.parallax-divider.black'),80,50);
+    });
+});
 $(function() {
 
     function contains(text, searchText) {
@@ -91,7 +94,7 @@ $(function() {
 
 
             var _scroll_to = _target_page;
-            if (_target_page.data('id') == 'home') {
+            if (_target_page.data('id') == 'informations') {
                 _scroll_to = 0;
             }
 
@@ -129,7 +132,7 @@ $(function() {
 
         var _active_page = $('.main > section').inViewport().first();
 
-        if ($('.main > section').inViewport().first().data('id') == 'home' && $(window).scrollTop() > 300) {
+        if ($('.main > section').inViewport().first().data('id') == 'informations' && $(window).scrollTop() > 300) {
             _active_page = $('.main > section').inViewport().eq(1);
         }
 
@@ -181,7 +184,7 @@ $(function() {
         e.preventDefault();
     });
 
-    $('header.main .imprint').hover(function() {
+    $('nav.main .imprint').hover(function() {
         $('body').addClass('open-imprint');
     }, function() {
         $('body').removeClass('open-imprint');
@@ -195,10 +198,17 @@ $(function() {
         e.preventDefault();
     });
 
-    $('header.main .contact').hover(function() {
+    $('nav.main .contact').hover(function() {
         $('body').addClass('open-contact');
     }, function() {
         $('body').removeClass('open-contact');
     });
 
+
+    i18n.init(function(t) {
+      $("[data-i18n]").i18n();
+
+      // programatical access
+      //var appName = t("app.name");
+    });
 });
