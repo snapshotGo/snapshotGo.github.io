@@ -33,19 +33,19 @@
   <section data-url="/" data-id="informations" data-title="About">
     <nav class="main">
       <ul>
-        <li class="btn-home"><a href="/" rel="internal" address="true"><span>Home</span></a></li>
-        <li class="btn-informations"><a href="/" rel="internal" address="true"><span>Overview</span></a></li>
-        <li class="btn-how-it-works"><a href="/how-it-works/" rel="internal" address="true"><span>How it works</span></a></li>
-        <li class="btn-sign-up"><a href="/sign-up/" rel="internal" address="true"><span>I'm interested!</span></a></li>
-        <li class="btn-twitter"><a href="https://twitter.com/snapshot_demand" target="_blank"><span><span>Follow us </span>Twitter</span></a></li>
-        <li class="btn-linkedin"><a href="http://www.linkedin.com/company/3083436?trk=tyah" target="_blank"><span><span>Follow us </span>LinkedIn</span></a></li>
-        <li class="btn-contact"><a href="#"><span>Contact</span></a></li>
-        <li class="btn-imprint"><a href="#"><span>Imprint</span></a></li>
-        <li class="btn-blog"><a href="http://blog.snapshot.travel" target="_blank"><span>Blog</span></a></li>
+        <li class="btn-home"><a href="/" rel="internal" address="true"><span data-i18n="nav.home">Home</span></a></li>
+        <li class="btn-informations"><a href="/" rel="internal" address="true"><span data-i18n="nav.overview">Overview</span></a></li>
+        <li class="btn-how-it-works"><a href="/how-it-works/" rel="internal" address="true"><span data-i18n="nav.howitworks">How it works</span></a></li>
+        <li class="btn-sign-up"><a href="/sign-up/" rel="internal" address="true"><span data-i18n="nav.interested">I'm interested!</span></a></li>
+        <li class="btn-twitter"><a href="https://twitter.com/snapshot_demand" target="_blank"><span><span data-i18n="nav.follow">Follow us </span>Twitter</span></a></li>
+        <li class="btn-linkedin"><a href="http://www.linkedin.com/company/3083436?trk=tyah" target="_blank"><span><span data-i18n="nav.follow">Follow us </span>LinkedIn</span></a></li>
+        <li class="btn-contact"><a href="#"><span data-i18n="nav.contact">Contact</span></a></li>
+        <li class="btn-imprint"><a href="#"><span data-i18n="nav.imprint">Imprint</span></a></li>
+        <li class="btn-blog"><a href="http://blog.snapshot.travel" target="_blank" ><span data-i18n="nav.blog">Blog</span></a></li>
       </ul>
       <address class="imprint">
         <div class="col col-1">
-          <strong>Imprint</strong><br>
+          <strong data-i18n="nav.imprint">Imprint</strong><br>
           SnapShot GmbH<br>
           Michael Heinze<br>
           Managing Director<br>
@@ -55,20 +55,20 @@
           VAT: ATU67741205
         </div>
         <div class="col">
-          <strong>Design &amp; Website by</strong><br>
+          <strong data-i18n="nav.designWeb">Design &amp; Website by</strong><br>
           <a href="#Ewelina" target="_blank">Ewelina Eliasz</a><br>
           <a href="https://github.com/klapek/" target="_blank">Wojciech Jaszczak</a><br>
         </div>
       </address>
       <address class="contact">
         <div class="col col-1">
-          <strong>Information</strong><br>
+          <strong data-i18n="contact.info">Information</strong><br>
           +31 611 308 891<br>
           <a href="mailto:learnmore@snapshot.travel">learnmore@snapshot.travel</a><br>
           <a href="#" target="_blank">@snapshot_learnmore</a>
         </div>
         <div class="col">
-          <strong>Support</strong><br>
+          <strong data-i18n="contact.support">Support</strong><br>
           +49 30 220 117 240<br>
           <a href="mailto:support@snapshot.travel">support@snapshot.travel</a><br>
           <a href="#" target="_blank">@snapshot_support</a>
@@ -83,7 +83,7 @@
       <div id='manager-with-desc'>
         <div class="troubled-manager"></div>
         <div id="snapshot-description">
-          <h1 data-i18n="[html]firstFold.snapshotIncentive.h1">Are you managing Excel<br/>or your hotel's demand?</h1>
+          <h1 data-i18n="[html]firstFold.snapshotIncentive.h1">Are you managing Excel<br/> or your hotel's demand?</h1>
           <p data-i18n="firstFold.snapshotIncentive.p">SnapShot GO! The hotel industry’s  first cloud-based demand management platform for secure and transparent forecast, strategy and budget management.</p>
         </div>
       </div>
@@ -111,6 +111,7 @@
 
   <div class="parallax-divider black parralaxed-item"></div>
   <section id="how-it-works" data-url="/how-it-works/" data-id='how-it-works' data-title="How does it work?">
+    <div class="gradient"></div>
     <h1 data-i18n="snapshotInographic.title">Here is how it Works...</h1>
     <div id="infographic"></div>
     <a href="/sign-up/" rel="internal"  internal class="btn-down light"></a>
@@ -125,34 +126,33 @@
       <div class="three-benefits"></div>
 
       <div class="decription">
-        <h1>SnapShot GO! is quick and easy to set-up and is changing the mindset of how hotels plan and manage their demand.</h1>
+        <h1 data-i18n="benefits.description.title">SnapShot GO! is quick and easy to set-up and is changing the mindset of how hotels plan and manage their demand.</h1>
 
-        <ul aria-label="SnapShot GO! assists you with:">
-          <li>Forecast, budget & strategy planning</li>
-          <li>Reviewing your hotel’s pricing and distribution strategy</li>
-          <li>Rolling 365 day performance overview</li>
-          <li>Automation of PMS, competitor benchmark & reputation data</li>
+        <ul data-i18n="[aria-label]benefits.description.listlabel" aria-label="SnapShot GO! assists you with:">
+          <li data-i18n="benefits.description.li1">Forecast, budget &amp; strategy planning</li>
+          <li data-i18n="benefits.description.li2">Reviewing your hotel’s pricing and distribution strategy</li>
+          <li data-i18n="benefits.description.li3">Rolling 365 day performance overview</li>
+          <li data-i18n="benefits.description.li4">Automation of PMS, competitor benchmark &amp; reputation data</li>
         </ul>
 
-        <em>...all in one structured online platform, accessible from any location or device.</em>
-        <p>Download full product brochure <a href="#">HERE</a>.</p>
+        <em data-i18n="benefits.description.em">...all in one structured online platform, accessible from any location or device.</em>
+        <p data-i18n="[html]benefits.description.p">Download full product brochure <a href="#">HERE</a>.</p>
       </div>
     <div id="floating-price-hexagon">
-      <p>950 € <br/>Annual fee*</p>
-      <em>*Listing price<br/>1.599 €</em>
+      <p data-i18n="[html]floatingHexagon.p">950 € <br/>Annual fee*</p>
+      <em data-i18n="[html]floatingHexagon.em">*Listing price<br/>1.599 €</em>
     </div>
     <section id="signup-form">
-      <h1>SIGN UP NOW!</h1>
-      <p class="description">SnapShot is running an exclusive introductory offer for hotels located in Amsterdam, Berlin or London.</p>
-      <p>Sign up before 31.12.14 to secure<br/> the special subscription fee of <span>950 €</span> per year.</p>
-<!--       <form action="http://waytomaster.us9.list-manage.com/subscribe/post?u=04a085ccf36ac9fc692cd4e3e&amp;id=b63e0b7d2e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate> -->
-      <form id="signupSubscriberForm" method="post" action="http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466" accept-charset="utf-8">
+      <h1 data-i18n="signUp.title">SIGN UP NOW!</h1>
+      <p  data-i18n="signUp.description" class="description">SnapShot is running an exclusive introductory offer for hotels located in Amsterdam, Berlin or London.</p>
+      <p  data-i18n="[html]signUp.p">Sign up before 31.12.14 to secure<br/> the special subscription fee of <span>950 €</span> per year.</p>
+      <form id="signupSubscriberForm" method="post"  data-i18n="[action]signUp.action" action="http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466" accept-charset="utf-8">
         <input type="hidden" name="formId" value="15476">
         <input type="hidden" name='country_id' value="171">
-        <input class='name' placeholder="Name" type="text" name='first_name'>
-        <input class='surname' placeholder="Surname" type="text" name="last_name">
-        <input class='email' placeholder="Email address" type="email" name='email'>
-        <button type="submit" value="Subscribe"></button>
+        <input class='name' data-i18n="[placeholder]signUp.name" placeholder="Name" type="text" name='first_name'>
+        <input class='surname' data-i18n="[placeholder]signUp.surname" placeholder="Surname" type="text" name="last_name">
+        <input class='email' data-i18n="[placeholder]signUp.email" placeholder="Email address" type="email" name='email'>
+        <button type="submit" data-i18n="[title]signUp.subscribe" value="Subscribe"></button>
       </form>
     </section>
     </div>
@@ -161,42 +161,41 @@
   <footer id="connect" data-url="/connect/" data-id="connect" data-title="Connect with us">
 
     <h1>
-      <span class="s4">Contacts</span>
-      <span class="s3">Connect With Us</span>
+      <span class="s4" data-i18n="connect.s4">Contacts</span>
+      <span class="s3" data-i18n="connect.s3">Connect With Us</span>
     </h1>
 
     <ul class="contact-list">
       <li>
-        <h2>Quick Links</h2>
+        <h2 data-i18n="connect.li1.h2">Quick Links</h2>
         <ul>
-          <li><a href="#">Product Brochure</a></li>
-          <li><a href="#">Platform</a>
+          <li data-i18n="[html]connect.li1.li1"><a href="#" >Product Brochure</a></li>
+          <li data-i18n="[html]connect.li1.li2"><a href="#">Platform</a>
           </li>
-          <li><a href="SnapshotGmbHT&C.pdf" target="_blank">Terms &amp; Conditions</a>
+          <li data-i18n="[html]connect.li1.li3"><a href="SnapshotGmbHT&C.pdf" target="_blank">Terms &amp; Conditions</a>
           </li>
         </ul>
       </li>
       <li>
-        <h2>Information</h2>
+        <h2 data-i18n="[html]connect.li2.h2">Information</h2>
         <ul>
-          <li>
-            <span class="btn btn-tel">+31 611 308 891</span>
+          <li><span class="btn btn-tel" data-i18n="[html]connect.li2.li1">+31 611 308 891</span>
           </li>
-          <li><a href="mailto:sales@snapshot.travel" class="btn btn-email">learnmore@snapshot.travel</a>
+          <li><a href="mailto:sales@snapshot.travel" class="btn btn-email" >learnmore@snapshot.travel</a>
           </li>
           <li><a href="#" class="btn">@snapshot_learnmore</a>
           </li>
         </ul>
       </li>
       <li>
-        <h2>Address</h2>
+        <h2 data-i18n="[html]connect.li3.h2">Address</h2>
         <address>SnapShot GmbH
           <br>Schillerstr. 10
           <br>5700 Zell am See
           <br>Austria</address>
       </li>
       <li>
-        <h2>Follow us</h2>
+        <h2 data-i18n="[html]connect.li4.h2">Follow us</h2>
         <ul class="social-list">
           <li><a href="https://twitter.com/snapshot_demand" target="_blank" class="btn-social btn-twitter">Twitter</a>
           </li>

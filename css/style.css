@@ -4,8 +4,8 @@ html{
 }
 
 body{ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
-    background: linear-gradient(to right,  rgba(254,254,254,0.11) 0%,rgba(254,254,254,0.28) 38%,rgba(231,216,220,0.55) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1cfefefe', endColorstr='#8ce7d8dc',GradientType=1 ); /* IE6-9 */
+    background: linear-gradient(to right, rgba(254,254,254,0.11) 0%,rgba(254,254,254,0.28) 38%,rgba(231,216,220,0.45) 140%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1cfefefe', endColorstr='#8ce7d8dc',GradientType=1 ); 
     font-family: 'nimbus_sans_novus_d_otmedium';
     height: 100%;
 }
@@ -85,7 +85,6 @@ section{
     color: white;
     font-family: "nimbus_sans_novus_d_otSBd";
     z-index: 5;
-    margin-top: -12.5px;
 }
 .parallax-divider.pink h1{
     font-size: 36px;

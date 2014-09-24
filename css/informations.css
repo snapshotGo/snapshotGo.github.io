@@ -11,7 +11,7 @@
     padding-top: 118px;
     width: 800px;
     /*max-width: 602px; - small screen fallback*/
-    height: 410px;
+    /*height: 410px;*/
     margin-left: 40px;
     box-sizing: border-box;
     display: inline-block;

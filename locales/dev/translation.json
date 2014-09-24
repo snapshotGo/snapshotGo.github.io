@@ -17,13 +17,74 @@
                 "title": "Increase co-working",
                 "paragraph": "Align commercial objectives Streamline communication Central access"
             }
-        },
-        "snapshotInographic" : {
-        	"title" :" HERE IS HOW IT WORKS..."
-        },
-        "pinkDivider": {
-        	"title" : "SNAPSHOT GO!",
-    		"subTitle" : "HOTEL DEMAND MANAGEMENT IN THE CLOUD"
         }
+    },
+    "snapshotInographic" : {
+        "title" :" HERE IS HOW IT WORKS..."
+    },
+    "pinkDivider": {
+        "title" : "SNAPSHOT GO!",
+        "subTitle" : "HOTEL DEMAND MANAGEMENT IN THE CLOUD"
+    },
+    "benefits": {
+        "description": {
+            "title": "SnapShot GO! is quick and easy to set-up and is changing the mindset of how hotels plan and manage their demand.",
+            "listlabel": "SnapShot GO! assists you with:",
+            "li1": "Forecast, budget & strategy planning",
+            "li2": "Reviewing your hotel’s pricing and distribution strategy",
+            "li3": "Rolling 365 day performance overview",
+            "li4": "Automation of PMS, competitor benchmark & reputation data",
+            "em": "...all in one structured online platform, accessible from any location or device.",
+            "p": "Download full product brochure <a href='#'>HERE</a>."
+        }
+    },
+    "floatingHexagon": {
+        "p" : "950 € <br/>Annual fee*",
+        "em" : "*Listing price<br/>1.599 €"
+    },
+    "signUp": {
+        "title" : "SIGN UP NOW!",
+        "description" : "SnapShot is running an exclusive introductory offer for hotels located in Amsterdam, Berlin or London.",
+        "p": "Sign up before 31.12.14 to secure<br/> the special subscription fee of <span>950 €</span> per year.",
+        "action" : "http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466",
+        "name" : "Name",
+        "surname" : "Surname",
+        "email" : "Email address",
+        "subscribe" : "Subscribe"
+    },
+    "connect": {
+        "s4" : "Contacts",
+        "s3" : "Connect With Us",
+        "li1": {
+            "h2" : "Quick Links",
+            "li1" : "<a href='#' >Product Brochure</a>",
+            "li2" : "<a href='#' >Platform</a>",
+            "li3" : "<a href='SnapshotGmbHT&C.pdf' target='_blank'>Terms & Conditions</a>"
+        },
+        "li2": {
+            "h2" : "Information",
+            "li1" : "<a href='#' >+31 611 308 891</a>"
+        },
+        "li3": {
+            "h2" : "Address"
+        },
+        "li4": {
+            "h2" : "Follow us"
+        }
+    },
+    "nav": {
+        "home" : "Home",
+        "overview" : "Overview",
+        "howitworks" : "How it works",
+        "interested" : "I'm interested!",
+        "follow" : "Follow us ",
+        "contact" : "Contact",
+        "imprint" : "Imprint",
+        "blog" : "Blog",
+        "designWeb" : "Design & Website by"
+    },
+    "contact": {
+        "info" : "Information",
+        "support" : "Support"
     }
 }
