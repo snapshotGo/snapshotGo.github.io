@@ -4,6 +4,7 @@
     flex-grow: 2;
     background: url(../img/infographic.png) center center no-repeat;    
     margin: 0 60px 20px;
+    background-size: contain;
 }
 
 #how-it-works h1 {

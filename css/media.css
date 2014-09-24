@@ -24,13 +24,13 @@
 
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
     #sign-up{
-        padding-bottom: 386px;
+        padding-bottom: 336px;
     }
     
     #floating-price-hexagon{
-        left: 897px;
+        left: 957px;
     }
 
 	#infographic{
@@ -38,14 +38,21 @@
 	}
 
     #signup-form{
-        left: 300px;
+        left: 350px;
     }
 
 	#snapshot-description{
-		padding-top: 40px;
+		padding-top: 100px;
 	}
 }
 
+
+@media (max-width: 1400px) {
+
+    #snapshot-description{
+        padding-top: 70px;
+    }
+}
 
 
 @media (max-width:1100px) {
