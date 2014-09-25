@@ -139,7 +139,7 @@
    nav.main .imprint {
      position: fixed;
      right: 165px;
-     top: 345px;
+     top: 375px;
      background: url(../img/pattern.png) repeat 0 0;
      border-radius: 3px;
      z-index: 99;
@@ -195,9 +195,13 @@
    body.open-contact nav.main .contact,
    body.open-imprint nav.main .imprint {
      width: 450px;
-     height: 140px;
+     height: 110px;
      opacity: 1;
      transition: opacity 200ms 0, width 0 0, height 0 0;
+   }
+
+  body.open-contact nav.main .contact{
+    width: 215px;
    }
    
    body.open-imprint nav.main .imprint {

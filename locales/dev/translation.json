@@ -58,12 +58,12 @@
         "li1": {
             "h2" : "Quick Links",
             "li1" : "<a href='#' >Product Brochure</a>",
-            "li2" : "<a href='#' >Platform</a>",
+            "li2" : "<a href='http://snapshot.travel' >SnapShot.travel</a>",
             "li3" : "<a href='SnapshotGmbHT&C.pdf' target='_blank'>Terms & Conditions</a>"
         },
         "li2": {
             "h2" : "Information",
-            "li1" : "<a href='#' >+31 611 308 891</a>"
+            "li1" : "+31 611 308 891"
         },
         "li3": {
             "h2" : "Address"
