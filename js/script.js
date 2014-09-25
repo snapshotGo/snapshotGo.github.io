@@ -14,11 +14,6 @@ $(function() {
         $.address.change(function(e) {
             var pageUrl = e.path;
             var _target_page = $('section[data-url="' + pageUrl + '"]');
-            var _title = _target_page.data('title') + ' / ' + $('body').data('site-name');
-            if (!contains(_title, "null")) {
-                $.address.title(_title);
-            }
-
 
             var _target_page_id = '';
             var _is_sub = false;
