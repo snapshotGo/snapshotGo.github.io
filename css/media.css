@@ -3,6 +3,8 @@
 @media (min-width: 1680px) {
     #sign-up{
 		padding-bottom: 284px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
         display: flex;
         height: 100%;
         box-sizing: border-box;
