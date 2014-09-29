@@ -59,7 +59,7 @@
             "h2" : "Quick Links",
             "li1" : "<a href='#' >Product Brochure</a>",
             "li2" : "<a href='http://snapshot.travel' >SnapShot.travel</a>",
-            "li3" : "<a href='SnapshotGmbHT&C.pdf' target='_blank'>Terms & Conditions</a>"
+            "li3" : "<a href='http://snapshot.travel/terms' target='_blank'>Terms & Conditions</a>"
         },
         "li2": {
             "h2" : "Information",
