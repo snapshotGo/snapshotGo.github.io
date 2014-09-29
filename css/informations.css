@@ -1,3 +1,16 @@
+#first-fold{
+    overflow: hidden;
+    height: 100%;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
 #manager-with-desc{
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -9,8 +22,6 @@
 
 #snapshot-description {
     width: 800px;
-    /*max-width: 602px; - small screen fallback*/
-    /*height: 410px;*/
     margin-left: 40px;
     box-sizing: border-box;
     display: inline-block;
@@ -26,14 +37,14 @@
     justify-content: center;
 }
 #snapshot-description h1 {
-    font-size: 48px;
+    font-size: 2em;
     font-family: "nimbus_sans_novus_d_otSBd";
     color: rgb(217, 63, 94);
     line-height: 42px;
     margin-bottom: 22px;
 }
 #snapshot-description p {
-    font-size: 33px;
+    font-size: 1.375em;
     color: #6c6b6b;
     font-family: "Times New Roman";
     font-style: italic;
@@ -46,7 +57,7 @@
     padding: 30px 0 45px;
 }
 #snapshot-benefits p {
-    font-size: 18px;
+    font-size: 0.75em;
     font-family: "nimbus_sans_novus_d_otmedium";
     opacity: 0.8;
 }
@@ -58,18 +69,17 @@
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    font-size: 0.75em;
 }
 #snapshot-benefits li {
     width: 400px;
     /*padding: 10px 0px 52px;*/
     text-align: center;
-    font-size: 18px;
     font-family: "nimbus_sans_novus_d_otmedium";
     color: #e2e2e2;
 }
 #snapshot-benefits h2 {
     background-image: url(../img/hexagon-benefits.png);
-    font-size: 18px;
     font-family: "nimbus_sans_nov_d_otbold";
     padding-left: 40px;
     line-height: 30px;
@@ -91,17 +101,4 @@
     display: inline-block;
     background-position: right 0;
     background-size: cover;
-}
-
-
-#first-fold{
-    overflow: hidden;
-    height: 100%;
-    box-sizing: border-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
 }

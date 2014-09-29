@@ -8,13 +8,13 @@ body{ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1cfefefe', endColorstr='#8ce7d8dc',GradientType=1 ); 
     font-family: 'nimbus_sans_novus_d_otmedium';
     height: 100%;
+    font-size: 24px;
 }
 
 header {
-    height: 148px;
+    height: 6.25em;
     background: url(../img/snapshot-header.png) center center no-repeat #000;
     color: white;
-    /*text-indent: -400px;*/
 }
 
     header h1{
@@ -70,8 +70,8 @@ section{
 }
 
 .parallax-divider{
-    padding-top: 42px;
-    padding-bottom: 47px;
+    padding-top: 1.75em;
+    padding-bottom: 2em;
     position: relative;
     z-index: 5;
     text-align: center;
