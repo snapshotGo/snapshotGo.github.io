@@ -3,6 +3,9 @@
 @media (min-width: 1680px) {
     #sign-up{
 		padding-bottom: 284px;
+        display: flex;
+        height: 100%;
+        box-sizing: border-box;
     }
     
     #floating-price-hexagon{
@@ -15,19 +18,12 @@
     .three-benefits{
     	margin-left:60px;
 	}
-
-	#snapshot-description{
-		padding-top: 185px;
-	}
 }
 
 
 
 
 @media (max-width: 1450px) {
-    #sign-up{
-        padding-bottom: 336px;
-    }
     
     #floating-price-hexagon{
         left: 957px;
@@ -38,19 +34,7 @@
 	}
 
     #signup-form{
-        left: 350px;
-    }
-
-	#snapshot-description{
-		padding-top: 100px;
-	}
-}
-
-
-@media (max-width: 1400px) {
-
-    #snapshot-description{
-        padding-top: 40px;
+        left: 365px;
     }
 }
 
@@ -67,10 +51,6 @@
 
     #signup-form{
         left: 20px;
-    }
-
-    #snapshot-description{
-    	padding-top: 44px;
     }
 }
 

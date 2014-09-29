@@ -8,7 +8,6 @@
 }
 
 #snapshot-description {
-    padding-top: 118px;
     width: 800px;
     /*max-width: 602px; - small screen fallback*/
     /*height: 410px;*/
@@ -16,7 +15,9 @@
     box-sizing: border-box;
     display: inline-block;
     padding-right: 50px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #snapshot-description h1 {
     font-size: 48px;
@@ -86,7 +87,6 @@
 
 #first-fold{
     overflow: hidden;
-    padding-bottom: 10px;
     height: 100%;
     box-sizing: border-box;
     display: -webkit-flex;

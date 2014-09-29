@@ -40,7 +40,7 @@ $(function(){
 
             if(back){
                 var backgroundPosition  =  Math.max(((window.pageYOffset-initialScroll)/2),0);
-                $('#infographic').css('background-position',' 0 ' + backgroundPosition+'px');
+                $('#infographic').css('margin-top',backgroundPosition);
             }
             
             $elToMove.css('margin-top',toScroll);
@@ -63,7 +63,7 @@ $(function(){
         var pinkTop = $('.parallax-divider.pink').offset().top;
 
 
-        moveDivider($('#sign-up'),$('.parallax-divider.pink'),80,0,true);
-        moveDivider($('#how-it-works'),$('.parallax-divider.black'),0,0);
+        moveDivider($('#sign-up'),$('.parallax-divider.pink'),0,0,true);
+        moveDivider($('#how-it-works'),$('.parallax-divider.black'),80,0);
     });
 });

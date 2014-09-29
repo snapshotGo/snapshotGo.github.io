@@ -40,12 +40,12 @@
     },
     "floatingHexagon": {
         "p" : "950 € <br/>Annual fee*",
-        "em" : "*Listing price<br/>1.599 €"
+        "em" : "*Listing price<br/>1.668 €"
     },
     "signUp": {
         "title" : "I AM INTERESTED!",
         "description" : "SnapShot is running an exclusive introductory offer for hotels located in Amsterdam, Berlin or London.",
-        "p": "Sign up before 31.12.14 to secure<br/> the special subscription fee of <span>950 €</span> per year.",
+        "p": "This offer runs until 31.12.2014 at a special subscription fee of <span>950 €</span> per year.",
         "action" : "http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466",
         "name" : "Name",
         "surname" : "Surname",
