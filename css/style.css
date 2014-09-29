@@ -12,7 +12,7 @@ body{ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.
 
 header {
     height: 148px;
-    background: url(../img/snapshot-header.png) center center;
+    background: url(../img/snapshot-header.png) center center no-repeat #000;
     color: white;
     /*text-indent: -400px;*/
 }
