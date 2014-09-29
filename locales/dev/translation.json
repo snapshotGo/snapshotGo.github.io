@@ -3,28 +3,34 @@
         "snapshotIncentive": {
             "h1": "Are you managing Excel<br/>or your hotel's demand?",
             "p": "SnapShot GO! The hotel industry’s  first cloud-based demand management platform for secure and transparent forecast, strategy and budget management."
-        },
-        "snapshotBenefits": {
-            "saveTime": {
-                "title": "Save time",
-                "paragraph": "No more Excel sheets Automated data collection Intuitive data preparation"
-            },
-            "incCoWork": {
-                "title ": "Tame the data",
-                "paragraph": "Rolling performance environment Customised views &amp; visualisation Secure &amp; transparent"
-            },
-            "tameData": {
-                "title": "Increase co-working",
-                "paragraph": "Align commercial objectives Streamline communication Central access"
-            }
         }
     },
-    "snapshotInographic" : {
-        "title" :" HERE IS HOW IT WORKS..."
+    "snapshotBenefits": {
+        "saveTime": {
+            "title": "Save time",
+            "li1": "No more Excel sheets",
+            "li2": "Automated data collection",
+            "li3": "Intuitive data preparation"
+        },
+        "tameData": {
+            "title ": "Tame the data",
+            "li1": "Rolling performance environment",
+            "li2": "Customised views &amp; visualisation",
+            "li3": "Secure &amp; transparent"
+        },
+        "incCoWork": {
+            "title": "Increase co-working",
+            "li1": "Align commercial objectives",
+            "li2": "Streamline communication",
+            "li3": "Central access"
+        }
+    },
+    "snapshotInographic": {
+        "title": " HERE IS HOW IT WORKS..."
     },
     "pinkDivider": {
-        "title" : "SNAPSHOT GO!",
-        "subTitle" : "HOTEL DEMAND MANAGEMENT IN THE CLOUD"
+        "title": "SNAPSHOT GO!",
+        "subTitle": "HOTEL DEMAND MANAGEMENT IN THE CLOUD"
     },
     "benefits": {
         "description": {
@@ -35,56 +41,58 @@
             "li3": "Rolling 365 day performance overview",
             "li4": "Automation of PMS, competitor benchmark & reputation data",
             "em": "...all in one structured online platform, accessible from any location or device.",
-            "p": "Download full product brochure <a href='#'>HERE</a>."
+            "p": "Download full product brochure <a href='#'>HERE</a>.",
+            "p2": "Please share with us your contact details and somebody from the SnapShot Team will get in touch with you."
         }
     },
     "floatingHexagon": {
-        "p" : "950 € <br/>Annual fee*",
-        "em" : "*Listing price<br/>1.668 €"
+        "p": "950 € <br/>Annual fee*",
+        "em": "*Listing price<br/>1.668 €"
     },
     "signUp": {
-        "title" : "I AM INTERESTED!",
-        "description" : "SnapShot is running an exclusive introductory offer for hotels located in Amsterdam, Berlin or London.",
+        "title": "I AM INTERESTED!",
+        "description": "SnapShot is running an exclusive introductory offer for hotels located in Amsterdam, Berlin or London.",
         "p": "This offer runs until 31.12.2014 at a special subscription fee of <span>950 €</span> per year.",
-        "action" : "http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466",
-        "name" : "Name",
-        "surname" : "Surname",
-        "email" : "Email address",
-        "subscribe" : "Subscribe"
+        "action": "http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466",
+        "name": "Name",
+        "surname": "Surname",
+        "email": "Email address",
+        "subscribe": "Subscribe",
+        "fontSize" : "font-size: 18px;"
     },
     "connect": {
-        "s4" : "Contacts",
-        "s3" : "Connect With Us",
+        "s4": "Contacts",
+        "s3": "Connect With Us",
         "li1": {
-            "h2" : "Quick Links",
-            "li1" : "<a href='#' >Product Brochure</a>",
-            "li2" : "<a href='http://snapshot.travel' >SnapShot.travel</a>",
-            "li3" : "<a href='http://snapshot.travel/terms' target='_blank'>Terms & Conditions</a>"
+            "h2": "Quick Links",
+            "li1": "<a href='#' >Product Brochure</a>",
+            "li2": "<a href='http://snapshot.travel' >SnapShot.travel</a>",
+            "li3": "<a href='http://snapshot.travel/terms' target='_blank'>Terms & Conditions</a>"
         },
         "li2": {
-            "h2" : "Information",
-            "li1" : "+31 611 308 891"
+            "h2": "Information",
+            "li1": "+31 611 308 891"
         },
         "li3": {
-            "h2" : "Address"
+            "h2": "Address"
         },
         "li4": {
-            "h2" : "Follow us"
+            "h2": "Follow us"
         }
     },
     "nav": {
-        "home" : "Home",
-        "overview" : "Overview",
-        "howitworks" : "How it works",
-        "interested" : "I'm interested!",
-        "follow" : "Follow us ",
-        "contact" : "Contact",
-        "imprint" : "Imprint",
-        "blog" : "Blog",
-        "designWeb" : "Design & Website by"
+        "home": "Home",
+        "overview": "Overview",
+        "howitworks": "How it works",
+        "interested": "I'm interested!",
+        "follow": "Follow us ",
+        "contact": "Contact",
+        "imprint": "Imprint",
+        "blog": "Blog",
+        "designWeb": "Design & Website by"
     },
     "contact": {
-        "info" : "Information",
-        "support" : "Support"
+        "info": "Information",
+        "support": "Support"
     }
 }

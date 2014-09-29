@@ -142,5 +142,15 @@ $(function() {
         $('body').removeClass('open-contact');
     });
 
+    $('.flag-gb').click(function () {
+        $.i18n.setLng('en');
+        $("[data-i18n]").i18n();
+    });
 
+    $('.flag-de').click(function () {
+        
+        $.i18n.setLng('de').then(function () {
+            $("[data-i18n]").i18n();
+        });
+    });
 });

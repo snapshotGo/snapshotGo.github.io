@@ -53,6 +53,7 @@ header {
     background: url(../img/icons-snapshot-go.png) no-repeat -32px -59px;
     z-index: 3;
 }
+
 .btn-down.dark{
     height: 32px;
 }
@@ -96,125 +97,6 @@ section{
 .parallax-divider p{
     font-size: 32px;
 }
-
-footer {
-    clear: both;
-    height: 340px;
-    background: url(../img/pattern.png);
-    color: white;
-    padding-top: 26px;
-}
-
-footer h1{
-    text-align: center;
-}
-
-footer h1:after {
-    margin-top: 21px;
-    width: 41px;
-    background: #f13f66;
-    content: "";
-    margin: 21px auto;
-    height: 2px;
-    display: block;
-}
-
-footer h1 span{
-    display: block;
-}
-
-footer h1 .s4{
-    font-family: "Times New Roman";
-    font-style: italic;
-    color: #909090;
-    font-size: 21px;
-    margin-bottom: 16px;
-}
-
-footer h1 .s3{
-    text-transform: uppercase;
-    color: #dcdcdc;
-    font-size: 46px;
-    font-family: "nimbus_sans_nov_d_otbold"
-}
-
-footer .contact-list{
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-}
-
-footer .contact-list h2{
-    color: #909090;
-    font-size: 25px;
-    font-family: "Times New Roman";
-    font-style: italic;
-    margin-bottom: 20px;
-}
-
-footer .contact-list li,
-footer .contact-list li a{
-    color: #e7e7e7;
-    text-decoration: none;
-    font-size: 17px;
-    line-height: 24px;
-    font-family: 'nimbus_sans_novus_d_otmedium';
-}
-
-.btn-email:before {
-    background: url(../img/icons-snapshot-go.png);
-    background-position: 0px -14px;
-}
-
-.btn-tel:before {
-    background: url(../img/icons-snapshot-go.png);
-}
-
-.btn:before{
-    content: "";
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    margin-right: 6px;
-    position: relative;
-    top: 2px;
-}
-
-
-.social-list li{
-    margin-bottom: 9px;
-}
-
-.btn-social:before {
-    content: "";
-    display: inline-block;
-    margin-right: 23px;
-    width: 26px;
-    position: relative;
-    top: 2px;
-    height: 30px;
-    margin-bottom: -7px;
-}
-
-.btn-linkedin:before {
-    background: url(../img/icons-snapshot-go.png);
-    background-position: -94px -30px;
-}
-
-.btn-twitter:before {
-    background: url(../img/icons-snapshot-go.png);
-    background-position: -94px 0px;
-}
-
-.btn-blog:before {
-    background: url(../img/icons-snapshot-go.png);
-    background-position: -94px -60px;
-}
-
-
 
 
 p span, p a

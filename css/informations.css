@@ -44,7 +44,7 @@
     font-family: "nimbus_sans_novus_d_otmedium";
     opacity: 0.8;
 }
-#snapshot-benefits ul {
+#snapshot-benefits > ul {
     /*padding-top: 25px;*/
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -54,9 +54,12 @@
     justify-content: space-around;
 }
 #snapshot-benefits li {
-    width: 244px;
+    width: 300px;
     /*padding: 10px 0px 52px;*/
     text-align: center;
+    font-size: 18px;
+    font-family: "nimbus_sans_novus_d_otmedium";
+    color: #e2e2e2;
 }
 #snapshot-benefits h2 {
     background-image: url(../img/hexagon-benefits.png);
