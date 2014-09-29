@@ -1,0 +1,98 @@
+{
+    "firstFold": {
+        "snapshotIncentive": {
+            "h1": "Verwalten Sie Ihre Excel-Tabellen<br/> oder Ihre Hotelnachfrage?",
+            "p": "SnapShot GO! – die erste Cloud-basierte Plattform für eine sichere und transparente Steuerung Ihrer Forecasts, Strategien und Budgets für die Hotellerie."
+        }
+    },
+    "snapshotBenefits": {
+        "saveTime": {
+            "title": "Zeitersparnis",
+            "li1": "Abschaffung zahlreicher Excel-Tabellen",
+            "li2": "Automatisierte Datenerfassung",
+            "li3": "Intuitive Datenvorbereitung"
+        },
+        "tameData": {
+            "title ": "Datenkontrolle",
+            "li1": "Fortlaufende Ergebnisübersicht",
+            "li2": "Maßgeschneiderte Datenansichten &amp; -visualisierung",
+            "li3": "Sicher &amp; transparent"
+        },
+        "incCoWork": {
+            "title": "Verbessertes Co-Working",
+            "li1": "Erreichen gemeinsamer Ziele",
+            "li2": "Zentraler Zugang",
+            "li3": "Optimierte Kommunikation"
+        }
+    },
+    "snapshotInographic" : {
+        "title" :"So funktioniert es"
+    },
+    "pinkDivider": {
+        "title" : "SnapShot GO!",
+        "subTitle" : "HOTEL DEMAND MANAGEMENT IN DER CLOUD"
+    },
+    "benefits": {
+        "description": {
+            "title": "SnapShot GO! ist eine schnell und einfach einzurichtende Plattform, welche die Vorgehensweise der Planung und Verwaltung Ihrer Hotelnachfrage verändert.",
+            "listlabel": "SnapShot GO! hilft Ihnen bei:",
+            "li1": "Forecast-, Budget- & Strategieplanung",
+            "li2": "Überarbeitung  der Preis- und Vertriebsstrategie Ihres Hotels",
+            "li3": "365-Tage fortlaufende Ergebnisübersicht",
+            "li4": "Automatisierung der PMS-, Wettbewerbsvergleichs- & Reputationsdaten",
+            "em": "…Alles in einer strukturierten online Plattform, die rund um die Uhr und von allen Geräten erreichbar ist.",
+            "p": "Komplette Produktübersicht zum Herunterladen <a href='#'>HIER</a>."
+        }
+    },
+    "floatingHexagon": {
+        "p" : "950 € <br/>Jahrepreis*",
+        "em" : "*Listenpreis <br/>1.668 €"
+    },
+    "signUp": {
+        "title" : "NEUGIERIG GEWORDEN?",
+        "description" : "Für nur kurze Zeit bietet SnapShot ein exklusives Angebot für Hotels mit den Standorten Amsterdam, Berlin oder London an.",
+        "p": "Das exklusive Angebot von nur <span>950 €</span> pro Jahr kann durch eine Anmeldung bis zum 31.12.2014 gesichert werden.",
+        "p2": "Bitte hinterlassen Sie uns Ihren Kontaktdaten und jemand vom SnapShot Team wird sich umgehend bei Ihnen melden.",
+        "action" : "http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466",
+        "name" : "Name",
+        "surname" : "Surname",
+        "email" : "Email address",
+        "subscribe" : "Subscribe",
+        "fontSize" : "font-size: 17px;"
+    },
+    "connect": {
+        "s4" : "Contacts",
+        "s3" : "Connect With Us",
+        "li1": {
+            "h2" : "Quick Links",
+            "li1" : "<a href='#' >Product Brochure</a>",
+            "li2" : "<a href='http://snapshot.travel' >SnapShot.travel</a>",
+            "li3" : "<a href='http://snapshot.travel/terms' target='_blank'>Terms & Conditions</a>"
+        },
+        "li2": {
+            "h2" : "Information",
+            "li1" : "+31 611 308 891"
+        },
+        "li3": {
+            "h2" : "Address"
+        },
+        "li4": {
+            "h2" : "Follow us"
+        }
+    },
+    "nav": {
+        "home" : "Home",
+        "overview" : "Overview",
+        "howitworks" : "How it works",
+        "interested" : "I'm interested!",
+        "follow" : "Follow us ",
+        "contact" : "Contact",
+        "imprint" : "Imprint",
+        "blog" : "Blog",
+        "designWeb" : "Design & Website by"
+    },
+    "contact": {
+        "info" : "Information",
+        "support" : "Support"
+    }
+}
