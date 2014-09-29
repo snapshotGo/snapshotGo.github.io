@@ -43,7 +43,7 @@
         "em" : "*Listing price<br/>1.599 €"
     },
     "signUp": {
-        "title" : "SIGN UP NOW!",
+        "title" : "I AM INTERESTED!",
         "description" : "SnapShot is running an exclusive introductory offer for hotels located in Amsterdam, Berlin or London.",
         "p": "Sign up before 31.12.14 to secure<br/> the special subscription fee of <span>950 €</span> per year.",
         "action" : "http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466",
@@ -59,7 +59,7 @@
             "h2" : "Quick Links",
             "li1" : "<a href='#' >Product Brochure</a>",
             "li2" : "<a href='http://snapshot.travel' >SnapShot.travel</a>",
-            "li3" : "<a href='SnapshotGmbHT&C.pdf' target='_blank'>Terms & Conditions</a>"
+            "li3" : "<a href='http://snapshot.travel/terms' target='_blank'>Terms & Conditions</a>"
         },
         "li2": {
             "h2" : "Information",
