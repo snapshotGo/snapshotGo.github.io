@@ -96,14 +96,14 @@
    nav.main li a:hover,
    body.open-contact nav.main li.btn-contact a,
    body.open-imprint nav.main li.btn-imprint a {
-     width: 154px;
+     width: 174px;
      background-position: right -86px;
    }
    
    nav.main li a:hover > span,
    body.open-contact nav.main li.btn-contact a > span,
    body.open-imprint nav.main li.btn-imprint a > span {
-     width: 90px;
+     width: 110px;
      padding-left: 20px;
    }
    
@@ -139,7 +139,7 @@
    nav.main .contact,
    nav.main .imprint {
      position: fixed;
-     right: 165px;
+     right: 184px;
      top: 50%;
      margin-top: 30px;
      background: url(../img/pattern.png) repeat 0 0;
