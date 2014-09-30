@@ -26,7 +26,8 @@
         }
     },
     "snapshotInographic": {
-        "title": " HERE IS HOW IT WORKS..."
+        "title": " HERE IS HOW IT WORKS...",
+        "src" : "background-image: url(/img/infographic.png)"
     },
     "pinkDivider": {
         "title": "SNAPSHOT GO!",
@@ -43,7 +44,8 @@
             "em": "...all in one structured online platform, accessible from any location or device.",
             "p": "Download full product brochure <a href='#'>HERE</a>.",
             "p2": "Please share with us your contact details and somebody from the SnapShot Team will get in touch with you."
-        }
+        },
+        "src" : "background-image: url(img/benefits-graphic.png)"
     },
     "floatingHexagon": {
         "p": "950 € <br/>Annual fee*",

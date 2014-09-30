@@ -14,6 +14,8 @@
 <script src="js/script.js" ></script>
 <!-- endbuild -->
 <title>SnapShot GO!</title>
+<meta name=viewport
+  content="width=device-width, initial-scale=0.75">
 
 <!-- build:css css/style.css -->
   <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -120,7 +122,7 @@
   </div>
   <section id="how-it-works" data-url="/how-it-works/" data-id='how-it-works' data-title="How does it work?">
     <div class="gradient"></div>
-    <div id="infographic" ></div><!--  src="/img/infographic.png"> -->
+    <div id="infographic" data-i18n="[style]snapshotInographic.src"></div><!--  src="/img/infographic.png"> -->
     <!-- <div id="infographic"></div> -->
     <a href="/sign-up/" rel="internal"  internal class="btn-down light"></a>
     <div class="nav-bubbles second"></div>
@@ -131,7 +133,7 @@
   </div>
   <section id="sign-up" data-url="/sign-up/" data-id="sign-up" data-title="Benefits and sign-up"> 
     <div  class="inner">
-      <div class="three-benefits"></div>
+      <div class="three-benefits" data-i18n="[style]benefits.src"></div>
 
       <div class="decription">
         <h1 data-i18n="benefits.description.title">SnapShot GO! is quick and easy to set-up and is changing the mindset of how hotels plan and manage their demand.</h1>
@@ -152,9 +154,9 @@
     </div>
     <section id="signup-form">
       <h1 data-i18n="signUp.title">I AM INTERESTED!</h1>
-      <p  data-i18n="[style]signUp.fontSize"  data-i18n="signUp.description" class="description">SnapShot is running an exclusive introductory offer for hotels located in Amsterdam, Berlin or London.</p>
-      <p  data-i18n="[style]signUp.fontSize"  data-i18n="[html]signUp.p">Sign up before 31.12.14 to secure<br/> the special subscription fee of <span>950 €</span> per year.</p>
-      <p  data-i18n="[style]signUp.fontSize" data-i18n="[html]signUp.p2"> Please share with us your contact details and somebody 
+      <p data-i18n="signUp.description;[style]signUp.fontSize" class="description">SnapShot is running an exclusive introductory offer for hotels located in Amsterdam, Berlin or London.</p>
+      <p data-i18n="[html]signUp.p;[style]signUp.fontSize">Sign up before 31.12.14 to secure<br/> the special subscription fee of <span>950 €</span> per year.</p>
+      <p data-i18n="[html]signUp.p2;[style]signUp.fontSize"> Please share with us your contact details and somebody 
 from the SnapShot Team will get in touch with you.</p>
       <form id="signupSubscriberForm" method="post"  data-i18n="[action]signUp.action" action="http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466" accept-charset="utf-8">
         <input type="hidden" name="formId" value="15476">

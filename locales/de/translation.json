@@ -26,7 +26,8 @@
         }
     },
     "snapshotInographic" : {
-        "title" :"So funktioniert es"
+        "title" :"So funktioniert es",
+        "src" : "background-image: url(/img/infographic-de.png)"
     },
     "pinkDivider": {
         "title" : "SnapShot GO!",
@@ -42,16 +43,18 @@
             "li4": "Automatisierung der PMS-, Wettbewerbsvergleichs- & Reputationsdaten",
             "em": "…Alles in einer strukturierten online Plattform, die rund um die Uhr und von allen Geräten erreichbar ist.",
             "p": "Komplette Produktübersicht zum Herunterladen <a href='#'>HIER</a>."
-        }
+        },
+        "src" : "background-image: url(img/benefits-graphic-de.png)"
     },
     "floatingHexagon": {
         "p" : "950 € <br/>Jahrepreis*",
         "em" : "*Listenpreis <br/>1.668 €"
     },
+	
     "signUp": {
         "title" : "NEUGIERIG GEWORDEN?",
-        "description" : "Für nur kurze Zeit bietet SnapShot ein exklusives Angebot für Hotels mit den Standorten Amsterdam, Berlin oder London an.",
-        "p": "Das exklusive Angebot von nur <span>950 €</span> pro Jahr kann durch eine Anmeldung bis zum 31.12.2014 gesichert werden.",
+        "description" : "Nur für kurze Zeit bietet SnapShot ein exklusives Angebot für Hotels mit den Standorten Amsterdam, Berlin oder London an.",
+        "p": "Das Angebot von nur <span>950 €</span> pro Jahr kann durch eine Anmeldung bis zum 31.12.2014 gesichert werden.",
         "p2": "Bitte hinterlassen Sie uns Ihren Kontaktdaten und jemand vom SnapShot Team wird sich umgehend bei Ihnen melden.",
         "action" : "http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466",
         "name" : "Name",
