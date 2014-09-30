@@ -46,6 +46,7 @@ $(function(){
             $elToMove.css('margin-top',toScroll);
         }else{
             $elToMove.css('margin-top','');
+            $('#infographic').css('margin-top','');
         }
     }
 

@@ -26,7 +26,8 @@
         }
     },
     "snapshotInographic" : {
-        "title" :"So funktioniert es"
+        "title" :"So funktioniert es",
+        "src" : "background-image: url(/img/infographic-de.png)"
     },
     "pinkDivider": {
         "title" : "SnapShot GO!",
@@ -42,52 +43,55 @@
             "li4": "Automatisierung der PMS-, Wettbewerbsvergleichs- & Reputationsdaten",
             "em": "…Alles in einer strukturierten online Plattform, die rund um die Uhr und von allen Geräten erreichbar ist.",
             "p": "Komplette Produktübersicht zum Herunterladen <a href='#'>HIER</a>."
-        }
+        },
+        "src" : "background-image: url(img/benefits-graphic-de.png)"
     },
     "floatingHexagon": {
         "p" : "950 € <br/>Jahrepreis*",
         "em" : "*Listenpreis <br/>1.668 €"
     },
+	
     "signUp": {
         "title" : "NEUGIERIG GEWORDEN?",
-        "description" : "Für nur kurze Zeit bietet SnapShot ein exklusives Angebot für Hotels mit den Standorten Amsterdam, Berlin oder London an.",
-        "p": "Das exklusive Angebot von nur <span>950 €</span> pro Jahr kann durch eine Anmeldung bis zum 31.12.2014 gesichert werden.",
+        "description" : "Nur für kurze Zeit bietet SnapShot ein exklusives Angebot für Hotels mit den Standorten Amsterdam, Berlin oder London an.",
+        "p": "Das Angebot von nur <span>950 €</span> pro Jahr kann durch eine Anmeldung bis zum 31.12.2014 gesichert werden.",
         "p2": "Bitte hinterlassen Sie uns Ihren Kontaktdaten und jemand vom SnapShot Team wird sich umgehend bei Ihnen melden.",
         "action" : "http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466",
         "name" : "Name",
         "surname" : "Surname",
         "email" : "Email address",
         "subscribe" : "Subscribe",
-        "fontSize" : "font-size: 17px;"
+        "fontSize" : "font-size: 0.7em;"
     },
     "connect": {
-        "s4" : "Contacts",
-        "s3" : "Connect With Us",
+        "s4" : "Weitere Informationen",
+        "s3" : "mit uns in Kontakt treten",
         "li1": {
             "h2" : "Quick Links",
-            "li1" : "<a href='#' >Product Brochure</a>",
+            "li1" : "<a href='#' >Produktbroschüre</a>",
             "li2" : "<a href='http://snapshot.travel' >SnapShot.travel</a>",
-            "li3" : "<a href='http://snapshot.travel/terms' target='_blank'>Terms & Conditions</a>"
+            "li3" : "<a href='http://snapshot.travel/terms' target='_blank'>Geschäftsbedingungen</a>"
         },
         "li2": {
-            "h2" : "Information",
+            "h2" : "Informationen",
             "li1" : "+31 611 308 891"
         },
         "li3": {
-            "h2" : "Address"
+            "h2" : "Address",
+            "austria" : "Österreich"
         },
         "li4": {
-            "h2" : "Follow us"
+            "h2" : "Folgen Sie uns"
         }
     },
     "nav": {
         "home" : "Home",
-        "overview" : "Overview",
-        "howitworks" : "How it works",
-        "interested" : "I'm interested!",
-        "follow" : "Follow us ",
-        "contact" : "Contact",
-        "imprint" : "Imprint",
+        "overview" : "Übersicht",
+        "howitworks" : "so funktioniert es",
+        "interested" : "neugierig geworden",
+        "follow" : "Folgen Sie uns ",
+        "contact" : "Kontakt",
+        "imprint" : "impressum",
         "blog" : "Blog",
         "designWeb" : "Design & Website by"
     },
