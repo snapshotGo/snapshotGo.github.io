@@ -61,36 +61,37 @@
         "surname" : "Surname",
         "email" : "Email address",
         "subscribe" : "Subscribe",
-        "fontSize" : "font-size: 17px;"
+        "fontSize" : "font-size: 0.7em;"
     },
     "connect": {
-        "s4" : "Contacts",
-        "s3" : "Connect With Us",
+        "s4" : "Weitere Informationen",
+        "s3" : "mit uns in Kontakt treten",
         "li1": {
             "h2" : "Quick Links",
-            "li1" : "<a href='#' >Product Brochure</a>",
+            "li1" : "<a href='#' >Produktbroschüre</a>",
             "li2" : "<a href='http://snapshot.travel' >SnapShot.travel</a>",
-            "li3" : "<a href='http://snapshot.travel/terms' target='_blank'>Terms & Conditions</a>"
+            "li3" : "<a href='http://snapshot.travel/terms' target='_blank'>Geschäftsbedingungen</a>"
         },
         "li2": {
-            "h2" : "Information",
+            "h2" : "Informationen",
             "li1" : "+31 611 308 891"
         },
         "li3": {
-            "h2" : "Address"
+            "h2" : "Address",
+            "austria" : "Österreich"
         },
         "li4": {
-            "h2" : "Follow us"
+            "h2" : "Folgen Sie uns"
         }
     },
     "nav": {
         "home" : "Home",
-        "overview" : "Overview",
-        "howitworks" : "How it works",
-        "interested" : "I'm interested!",
-        "follow" : "Follow us ",
-        "contact" : "Contact",
-        "imprint" : "Imprint",
+        "overview" : "Übersicht",
+        "howitworks" : "so funktioniert es",
+        "interested" : "neugierig geworden",
+        "follow" : "Folgen Sie uns ",
+        "contact" : "Kontakt",
+        "imprint" : "impressum",
         "blog" : "Blog",
         "designWeb" : "Design & Website by"
     },

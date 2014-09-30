@@ -1,6 +1,7 @@
 html{
     background: url(../img/pattern-hexagon-light.png);
     height: 100%;
+    font-size: 150%;
 }
 
 body{ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
@@ -106,7 +107,7 @@ p span, p a
 
 
 .inner{
-    max-width: 1600px;
+    max-width: 66.66em;
     margin-left: auto;
     display: -webkit-flex;
     display: -ms-flexbox;

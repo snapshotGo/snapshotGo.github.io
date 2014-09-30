@@ -72,13 +72,13 @@
 
 #signup-form{
 	position: absolute;
-	left: 602px;
+	left: 25.08em;
 	bottom: 0;
-	width: 648px;
-	height: 391px;
+	width: 27em;
+	height: 16.29em;
 	background: url(../img/hexagon-signup.png);
 	text-align: center;
-	padding: 70px 0 0;
+	padding: 2.92em 0 0;
 	box-sizing: border-box;
 	color: white;
 }
@@ -128,6 +128,7 @@
 	width: 266px;
 }
 
+/*(TODO transform 0.75)*/
 #signup-form button{
 	background: url(../img/icons-snapshot-go.png);
 	width: 51px;
@@ -148,15 +149,15 @@
 #floating-price-hexagon{
 	background: url(../img/hexagon-pricing.png);
 	font-family: 'nimbus_sans_novus_d_otmedium';
-	padding: 0 20px;
+	padding: 0 0.83em;
 	box-sizing: border-box;
-	width: 242px;
+	width: 10.08em;
 	color: white;
 	text-align: center;
-	height: 242px;
+	height: 10.08em;
 	position: absolute;
-	bottom: 150px;
-	left: 1200px
+	bottom: 6.25em;
+	left: 50em
 }
 
 #floating-price-hexagon p{
