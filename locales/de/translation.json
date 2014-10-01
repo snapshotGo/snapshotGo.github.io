@@ -47,7 +47,7 @@
         "src" : "background-image: url(img/benefits-graphic-de.png)"
     },
     "floatingHexagon": {
-        "p" : "950 € <br/>Jahrepreis*",
+        "p" : "950 € <br/>Jahrespreis*",
         "em" : "*Listenpreis <br/>1.668 €"
     },
 	
