@@ -27,7 +27,7 @@
     },
     "snapshotInographic": {
         "title": " HERE IS HOW IT WORKS...",
-        "src" : "background-image: url(/img/infographic.png)"
+        "src" : "background-image: url(img/infographic.png)"
     },
     "pinkDivider": {
         "title": "SNAPSHOT GO!",
