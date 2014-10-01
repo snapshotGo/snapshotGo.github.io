@@ -60,6 +60,7 @@
         "surname": "Surname",
         "email": "Email address",
         "subscribe": "Subscribe",
+        "companyName" : "Company Name",
         "fontSize" : "font-size: 0.75em;"
     },
     "connect": {

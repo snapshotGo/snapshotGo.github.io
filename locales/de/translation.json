@@ -57,10 +57,11 @@
         "p": "Das Angebot von nur <span>950 €</span> pro Jahr kann durch eine Anmeldung bis zum 31.12.2014 gesichert werden.",
         "p2": "Bitte hinterlassen Sie uns Ihren Kontaktdaten und jemand vom SnapShot Team wird sich umgehend bei Ihnen melden.",
         "action" : "http://waytomaster.campayn.com/contacts/signup_form_add_contact/13466",
-        "name" : "Name",
-        "surname" : "Surname",
-        "email" : "Email address",
+        "name" : "Vorname",
+        "surname" : "Name",
+        "email" : "e-Mail-Adresse",
         "subscribe" : "Subscribe",
+        "companyName" : "Firmenname",
         "fontSize" : "font-size: 0.7em;"
     },
     "connect": {
@@ -77,7 +78,7 @@
             "li1" : "+31 611 308 891"
         },
         "li3": {
-            "h2" : "Address",
+            "h2" : "Adresse",
             "austria" : "Österreich"
         },
         "li4": {
@@ -96,7 +97,7 @@
         "designWeb" : "Design & Website by"
     },
     "contact": {
-        "info" : "Information",
+        "info" : "Informationen",
         "support" : "Support"
     }
 }

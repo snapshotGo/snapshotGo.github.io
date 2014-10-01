@@ -27,7 +27,7 @@
     },
     "snapshotInographic": {
         "title": " HERE IS HOW IT WORKS...",
-        "src" : "background-image: url(/img/infographic.png)"
+        "src" : "background-image: url(img/infographic.png)"
     },
     "pinkDivider": {
         "title": "SNAPSHOT GO!",
@@ -60,6 +60,7 @@
         "surname": "Surname",
         "email": "Email address",
         "subscribe": "Subscribe",
+        "companyName" : "Company Name",
         "fontSize" : "font-size: 0.75em;"
     },
     "connect": {
