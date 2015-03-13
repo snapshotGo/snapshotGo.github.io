@@ -52,9 +52,9 @@
     },
     "signUp": {
         "title": "I WANT TO KNOW MORE",
-        "description": "SnapShot are looking for forward thinking hotels to join our Early Adopter program. Please share with us your contact details and somebody from the SnapShot Team will get in touch with you.",
+        "description": "SnapShot are looking for forward thinking hotels to join our Early Adopter program.",
         "p": "",
-        "p2": "",
+        "p2": "Please share with us your contact details and somebody from the SnapShot Team will get in touch with you.",
         "action" : "http://snapshot.campayn.com/contacts/signup_form_add_contact/13428",
         "form_id" : "16130",
         "name": "Name",
