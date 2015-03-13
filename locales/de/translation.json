@@ -53,9 +53,9 @@
 	
     "signUp": {
         "title" : "NEUGIERIG GEWORDEN?",
-        "description" : "SnapShot sucht vorausdenkende Hoteliers für unser „Early Adopters“ Programm. Bitte hinterlassen Sie uns Ihren Kontaktdaten und jemand vom SnapShot Team wird sich umgehend bei Ihnen melden.",
-        "p": "",
-        "p2": "",
+        "description" : "SnapShot sucht vorausdenkende Hoteliers</br> für unser „Early Adopters“ Programm.",
+        "p": "</br>",
+        "p2": "Bitte hinterlassen Sie uns Ihren Kontaktdaten und jemand vom SnapShot Team wird sich umgehend bei Ihnen melden.",
         "action" : "http://snapshot.campayn.com/contacts/signup_form_add_contact/13428",
         "form_id" : "16132",
         "name" : "Vorname",
