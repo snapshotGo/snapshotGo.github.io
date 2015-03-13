@@ -47,14 +47,14 @@
         "src" : "background-image: url(img/benefits-graphic-de.png)"
     },
     "floatingHexagon": {
-        "p" : "950 € <br/>Jahrespreis*",
-        "em" : "*Listenpreis <br/>1.668 €"
+        "p" : "1.668 €<br/>Jahrespreis",
+        "em" : "139 € monatlich"
     },
 	
     "signUp": {
         "title" : "NEUGIERIG GEWORDEN?",
-        "description" : "Nur für kurze Zeit bietet SnapShot ein exklusives Angebot für Hotels mit den Standorten Amsterdam, Berlin oder London an.",
-        "p": "Das Angebot von nur <span>950 €</span> pro Jahr kann durch eine Anmeldung bis zum 31.12.2014 gesichert werden.",
+        "description" : "SnapShot sucht vorausdenkende Hoteliers</br> für unser „Early Adopters“ Programm.",
+        "p": "</br>",
         "p2": "Bitte hinterlassen Sie uns Ihren Kontaktdaten und jemand vom SnapShot Team wird sich umgehend bei Ihnen melden.",
         "action" : "http://snapshot.campayn.com/contacts/signup_form_add_contact/13428",
         "form_id" : "16132",
